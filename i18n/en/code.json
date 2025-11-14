@@ -1,0 +1,38 @@
+{
+  "navbar.docs": {
+    "message": "Documentation",
+    "description": "Navbar item for Documentation"
+  },
+  "navbar.cases": {
+    "message": "Cases",
+    "description": "Navbar item for Cases"
+  },
+  "navbar.videos": {
+    "message": "Videos",
+    "description": "Navbar item for Videos"
+  },
+  "navbar.contact": {
+    "message": "Contact",
+    "description": "Navbar item for Contact"
+  },
+  "footer.docs.title": {
+    "message": "Docs"
+  },
+  "footer.docs.documentation": {
+    "message": "Documentation"
+  },
+  "footer.explore.title": {
+    "message": "Explore"
+  },
+  "footer.explore.cases": {
+    "message": "Cases"
+  },
+  "footer.explore.videos": {
+    "message": "Videos"
+  },
+  "footer.explore.contact": {
+    "message": "Contact"
+  },
+  "site.title": { "message": "My Site" },
+  "site.tagline": { "message": "Dinosaurs are cool" }
+}

@@ -1,0 +1,82 @@
+
+[data-theme='dark'] {
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* You can override the default Infima variables here. */
+:root {
+  /* Primary brand color */
+  --ifm-color-primary: #152c49;
+  --ifm-color-primary-dark: #152c49;
+  --ifm-color-primary-darker: #152c49;
+  --ifm-color-primary-darkest: #152c49;
+  --ifm-color-primary-light: #152c49;
+  --ifm-color-primary-lighter: #152c49;
+  --ifm-color-primary-lightest: #152c49;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  /* Use a lighter variant of the brand color in dark mode for better contrast */
+  --ifm-color-primary: #3b5e8b;         /* base (lighter than #152c49) */
+  --ifm-color-primary-dark: #35547d;    /* slightly darker */
+  --ifm-color-primary-darker: #2f4a6f;  /* darker */
+  --ifm-color-primary-darkest: #263b58; /* darkest */
+  --ifm-color-primary-light: #5076a6;   /* lighter */
+  --ifm-color-primary-lighter: #6a8fbd; /* even lighter */
+  --ifm-color-primary-lightest: #94b1d4;/* lightest */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive video embed */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.video-wrapper .video-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Casos page: stronger card shadows */
+.casos-page .card {
+  border-radius: 12px;
+  /* More defined shadow than default Infima cards */
+  box-shadow:
+    0 6px 16px rgba(0, 0, 0, 0.12),
+    0 2px 4px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  transition: box-shadow 160ms ease, transform 160ms ease;
+}
+
+.casos-page .card:hover {
+  box-shadow:
+    0 10px 24px rgba(0, 0, 0, 0.16),
+    0 4px 8px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+[data-theme='dark'] .casos-page .card {
+  /* Slightly stronger shadow in dark mode for contrast */
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.45),
+    0 2px 6px rgba(0, 0, 0, 0.35);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+[data-theme='dark'] .casos-page .card:hover {
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.55),
+    0 6px 12px rgba(0, 0, 0, 0.40);
+}

@@ -1,6 +1,6 @@
 ---
-title: "Historias de éxito: Interoperabilidad"
-sidebar_label: "Interoperabilidad (Buenas prácticas)"
+title: "Interoperabilidad de espacios de datos agroalimentarios"
+sidebar_label: "Historia de éxito en interoperabilidad"
 ---
 
 # Historias de éxito: Interoperabilidad

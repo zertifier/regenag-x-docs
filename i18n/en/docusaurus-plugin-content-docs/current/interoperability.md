@@ -1,6 +1,6 @@
 ---
-title: "Success stories: Interoperability"
-sidebar_label: "Interoperability (Best practices)"
+title: "Interoperability of agri‑food data spaces"
+sidebar_label: "Success story in interoperability"
 ---
 
 # Success stories: Interoperability

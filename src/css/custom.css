@@ -1,4 +1,7 @@
 
+/* Google Fonts: Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 [data-theme='dark'] {
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
@@ -13,6 +16,11 @@
   --ifm-color-primary-light: #152c49;
   --ifm-color-primary-lighter: #152c49;
   --ifm-color-primary-lightest: #152c49;
+  
+  /* Typography: set Montserrat as the main site font */
+  --ifm-font-family-base: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  --ifm-heading-font-family: var(--ifm-font-family-base);
+  
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -20,13 +28,12 @@
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   /* Use a lighter variant of the brand color in dark mode for better contrast */
-  --ifm-color-primary: #3b5e8b;         /* base (lighter than #152c49) */
-  --ifm-color-primary-dark: #35547d;    /* slightly darker */
-  --ifm-color-primary-darker: #2f4a6f;  /* darker */
-  --ifm-color-primary-darkest: #263b58; /* darkest */
-  --ifm-color-primary-light: #5076a6;   /* lighter */
-  --ifm-color-primary-lighter: #6a8fbd; /* even lighter */
-  --ifm-color-primary-lightest: #94b1d4;/* lightest */
+  --ifm-color-primary: #ffffff;         /* base (lighter than #152c49) */
+  --ifm-color-primary-dark: #ffffff;    /* slightly darker */
+  --ifm-color-primary-darker: #ffffff;  /* darker */
+  --ifm-color-primary-darkest: #ffffff; /* darkest */
+  --ifm-color-primary-light: #ffffff;   /* lighter */
+  --ifm-color-primary-lighter: #ffffff; /* even lighter */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -79,4 +86,20 @@
   box-shadow:
     0 14px 28px rgba(0, 0, 0, 0.55),
     0 6px 12px rgba(0, 0, 0, 0.40);
+}
+
+/* Underline the active/selected topbar (navbar) link */
+.navbar__link--active {
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  text-decoration-color: currentColor; /* matches current link color in light/dark */
+}
+
+/* Ensure underline also applies inside dropdowns or when nested */
+.dropdown__link--active {
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  text-decoration-color: currentColor;
 }

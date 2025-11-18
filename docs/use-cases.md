@@ -7,6 +7,8 @@ sidebar_label: Desarrollo de casos de uso
 
 Esta guía presenta los pasos clave para diseñar e implementar casos de uso dentro de un espacio de datos agroalimentario. Inspirada en el modelo de la [Oficina del Dato](https://datos.gob.es), proporciona un enfoque práctico para desarrollar soluciones basadas en el intercambio ético, seguro y federado de datos.
 
+Como ejemplo real, contamos con un dataspace desplegado para el análisis de datos de suelo de parcelas agrícolas en las Islas Azores (Portugal). Este entorno facilita la publicación de datasets, la ejecución de algoritmos de confianza y el control granular del acceso a los datos. La información no sale del entorno seguro gracias a mecanismos de Compute-to-Data y políticas auditables. Puedes explorar tarjetas con parcelas y servicios relacionados en la sección de [Casos](/casos), que se irá ampliando conforme se incorporen nuevas fincas y análisis.
+
 Los casos de uso permiten dar respuesta a retos concretos del sector agroalimentario, aprovechando el valor que surge al compartir datos entre múltiples actores. Para ello, se apoyan en infraestructuras técnicas comunes y en modelos de gobernanza colaborativa que garantizan la interoperabilidad, la confianza y la soberanía del dato.
 
 En el marco del proyecto RegenAg-x, se pueden consultar diversos ejemplos reales de casos de uso desarrollados dentro del espacio de datos agroalimentario en la sección de [Casos](/casos).

@@ -7,6 +7,8 @@ sidebar_label: Use case development
 
 This guide presents the key steps to design and implement use cases within an agri‑food data space. Inspired by the model from the [Oficina del Dato](https://datos.gob.es), it provides a practical approach to developing solutions based on ethical, secure, and federated data sharing.
 
+As a real example, we have a data space deployed for soil data analysis of agricultural fields in the Azores Islands (Portugal). This environment enables dataset publishing, trusted algorithm execution, and granular access control. Data never leaves the secure environment thanks to Compute‑to‑Data mechanisms and auditable policies. You can explore field/service cards in the [Cases](/casos) section, which will grow as new fields and analyses are added.
+
 Use cases make it possible to address specific challenges in the agri‑food sector, leveraging the value that arises from sharing data among multiple actors. To do this, they rely on common technical infrastructures and collaborative governance models that ensure interoperability, trust, and data sovereignty.
 
 Within the framework of the RegenAg‑x project, you can consult various real examples of use cases developed within the agri‑food data space in the [Cases](/casos) section.

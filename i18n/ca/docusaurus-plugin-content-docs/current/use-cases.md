@@ -7,6 +7,8 @@ sidebar_label: Desenvolupament de casos d'ús
 
 Aquesta guia presenta els passos clau per dissenyar i implementar casos d'ús dins d'un espai de dades agroalimentari. Inspirada en el model de l'[Oficina del Dato](https://datos.gob.es), proporciona un enfocament pràctic per desenvolupar solucions basades en el compartiment ètic, segur i federat de dades.
 
+Com a exemple real, disposem d'un espai de dades desplegat per a l'anàlisi de dades de sòl de parcel·les agrícoles a les Illes Açores (Portugal). Aquest entorn permet publicar datasets, executar algoritmes de confiança i aplicar control granular d'accés. La informació no surt de l'entorn segur gràcies a mecanismes de Compute‑to‑Data i polítiques auditables. Pots explorar targetes de parcel·la/servei a la secció de [Casos](/casos), que creixerà a mesura que s'afegeixin noves parcel·les i anàlisis.
+
 Els casos d'ús permeten donar resposta a reptes concrets del sector agroalimentari, aprofitant el valor que sorgeix en compartir dades entre múltiples actors. Per a això, es recolzen en infraestructures tècniques comunes i en models de governança col·laborativa que garanteixen la interoperabilitat, la confiança i la sobirania de la dada.
 
 En el marc del projecte RegenAg‑x, es poden consultar diversos exemples reals de casos d'ús desenvolupats dins de l'espai de dades agroalimentari a la secció de [Cases](/casos).

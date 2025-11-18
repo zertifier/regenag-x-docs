@@ -12,7 +12,7 @@ Descobreix el projecte amb walkthroughs curts, xerrades en profunditat i demos r
 
 <div className="video-wrapper">
   <iframe
-    src="https://www.youtube.com/embed/eevKg2oaGQM"
+    src="https://www.youtube.com/embed/PUz8A-Ld0kA"
     title="Descobreix Regenag‑x"
     className="video-iframe"
     frameBorder="0"

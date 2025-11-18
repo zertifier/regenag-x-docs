@@ -12,7 +12,7 @@ Discover the project through short walkthroughs, in‑depth talks, and real demo
 
 <div className="video-wrapper">
   <iframe
-    src="https://www.youtube.com/embed/eevKg2oaGQM"
+    src="https://www.youtube.com/embed/PUz8A-Ld0kA"
     title="Discover Regenag‑x"
     className="video-iframe"
     frameBorder="0"

@@ -12,7 +12,7 @@ Descubre el proyecto a través de recorridos breves, charlas en profundidad y de
 
 <div className="video-wrapper">
   <iframe
-    src="https://www.youtube.com/embed/eevKg2oaGQM"
+    src="https://www.youtube.com/embed/PUz8A-Ld0kA"
     title="Descubre Regenag‑x"
     className="video-iframe"
     frameBorder="0"

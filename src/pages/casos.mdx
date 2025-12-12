@@ -8,7 +8,9 @@ import Link from '@docusaurus/Link';
 
 # Casos
 
-Explora cómo los equipos aplican el proyecto en diferentes contextos. Nuestro dataspace para agricultura ya está desplegado para análisis de datos de suelo en parcelas de las Islas Azores (Portugal). Aquí encontrarás tarjetas por parcela/servicio con acceso a datasets, algoritmos y políticas de acceso granular, todo bajo soberanía del dato y con Compute-to-Data.
+Explora cómo los equipos aplican el proyecto en diferentes contextos. Estos análisis de demostración aplican un algoritmo simple y preservador de la privacidad a conjuntos de datos de campos individuales en las Islas Azores. Cada tarjeta resume indicadores clave estructurales y de fertilidad derivados de mediciones de suelo sin procesar, sin exponer datos sensibles o granulares. El algoritmo cuenta granjas, campos, eventos de análisis y densidad de medición para crear una instantánea de diagnóstico de alto nivel.
+
+Estos conocimientos básicos ayudan a los equipos a comprender los flujos de datos típicos en el espacio de datos agrícolas, explorar la ejecución de Compute-to-Data y evaluar cómo la información del suelo puede respaldar decisiones sobre fertilización, riego y gestión de cultivos.
 
 ## Casos destacados
 
@@ -20,16 +22,17 @@ Explora cómo los equipos aplican el proyecto en diferentes contextos. Nuestro d
         <div className="card__header">
           <h3>Análisis de granja - Verdevida Granja, Campo Norte (2025-10-09)</h3>
         </div>
-        <div className="card__body">
+        <div className="card__body with-image">
+          <img className="case-image" src="/img/analysis1.png" alt="Análisis de granja - Verdevida Granja, Campo Norte" />
           <p>
-            Perfil inicial de fertilidad y estructura del suelo para planificar abonado y rotaciones.{' '}
+            Análisis detallado del Campo Norte de Verdevida Granja, centrado en los perfiles iniciales de fertilidad y estructura del suelo. Este dataset permite optimizar las estrategias de fertilización y planificar las rotaciones de cultivos de manera efectiva para la próxima temporada. Procesado con el Terrain Lab Audit Engine para prechequeos y validación segura.{' '}
             <Link to="/documentacion/use-cases">Más info</Link>
           </p>
         </div>
         <div className="card__footer">
           <div className="button-group button-group--block">
-            <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:7796fcba71123f22aa665af0cc1dcb137faaacca5cef3641dead3e12ac3e559a" target="_blank">Dataset</a>
-            <a className="button button--secondary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:66d43db7a49467a13254fdbb70897cc3ff66a652790a6de8e69957b98aeefe0c" target="_blank">Algorithm</a>
+            <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:7796fcba71123f22aa665af0cc1dcb137faaacca5cef3641dead3e12ac3e559a" target="_blank">Conjunto de datos</a>
+            <Link className="button button--secondary" to="/algoritmos/terrain-lab">Algoritmo</Link>
           </div>
         </div>
       </div>
@@ -41,16 +44,17 @@ Explora cómo los equipos aplican el proyecto en diferentes contextos. Nuestro d
         <div className="card__header">
           <h3>Análisis de granja - Las Nubes, Sector A (2025-10-09)</h3>
         </div>
-        <div className="card__body">
+        <div className="card__body with-image">
+          <img className="case-image" src="/img/analysis2.png" alt="Análisis de granja - Las Nubes, Sector A" />
           <p>
-            Balance de nutrientes N‑P‑K y materia orgánica tras la campaña de otoño.{' '}
+            Informe de balance de nutrientes para el Sector A en Las Nubes. Monitoriza los niveles de N‑P‑K y la materia orgánica tras la cosecha de otoño para determinar las necesidades específicas de enmiendas del suelo. Ejecutado con el Terrain Lab Audit Engine para asegurar la integridad del dataset antes del análisis posterior.{' '}
             <Link to="/documentacion/use-cases">Más info</Link>
           </p>
         </div>
         <div className="card__footer">
           <div className="button-group button-group--block">
-            <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:31ddd8b1c94b6099f20ffc8db062f4023529a30848de88d141218128a22f41ec" target="_blank">Dataset</a>
-            <a className="button button--secondary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:66d43db7a49467a13254fdbb70897cc3ff66a652790a6de8e69957b98aeefe0c" target="_blank">Algorithm</a>
+            <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:31ddd8b1c94b6099f20ffc8db062f4023529a30848de88d141218128a22f41ec" target="_blank">Conjunto de datos</a>
+            <Link className="button button--secondary" to="/algoritmos/terrain-lab">Algoritmo</Link>
           </div>
         </div>
       </div>
@@ -62,16 +66,17 @@ Explora cómo los equipos aplican el proyecto en diferentes contextos. Nuestro d
         <div className="card__header">
           <h3>Análisis de granja - El Sol Dorado, Parcela del Río (2025-10-09)</h3>
         </div>
-        <div className="card__body">
+        <div className="card__body with-image">
+          <img className="case-image" src="/img/analysis3.jpg" alt="Análisis de granja - El Sol Dorado, Parcela del Río" />
           <p>
-            Seguimiento de humedad y conductividad para riego de precisión en zona ribereña.{' '}
+            Estudio de riego de precisión para la Parcela del Río. El seguimiento continuo de la retención de humedad y la conductividad eléctrica asegura un uso óptimo del agua en esta zona ribereña sensible. Utiliza el Terrain Lab Audit Engine para verificar y resumir mediciones de laboratorio de forma segura.{' '}
             <Link to="/documentacion/use-cases">Más info</Link>
           </p>
         </div>
         <div className="card__footer">
           <div className="button-group button-group--block">
-            <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:cc0bee64c03b809aabddf63a93f756188d274473d051d1bcaf06728d61ace73d" target="_blank">Dataset</a>
-            <a className="button button--secondary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:66d43db7a49467a13254fdbb70897cc3ff66a652790a6de8e69957b98aeefe0c" target="_blank">Algorithm</a>
+            <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:cc0bee64c03b809aabddf63a93f756188d274473d051d1bcaf06728d61ace73d" target="_blank">Conjunto de datos</a>
+            <Link className="button button--secondary" to="/algoritmos/terrain-lab">Algoritmo</Link>
           </div>
         </div>
       </div>
@@ -83,16 +88,17 @@ Explora cómo los equipos aplican el proyecto en diferentes contextos. Nuestro d
         <div className="card__header">
           <h3>Análisis de granja - El Sol Dorado, Campo Olivares (2025-10-09)</h3>
         </div>
-        <div className="card__body">
+        <div className="card__body with-image">
+          <img className="case-image" src="/img/analysis4.png" alt="Análisis de granja - El Sol Dorado, Campo Olivares" />
           <p>
-            Evaluación de pH y microelementos para mejorar el vigor en olivar joven.{' '}
+            Evaluación de salud para el olivar joven en Campo Olivares. El análisis de los niveles de pH y la disponibilidad de microelementos apoya eficazmente el vigor y el crecimiento en las primeras etapas. Impulsado por el Terrain Lab Audit Engine para crear una instantánea diagnóstica preservando la privacidad.{' '}
             <Link to="/documentacion/use-cases">Más info</Link>
           </p>
         </div>
         <div className="card__footer">
           <div className="button-group button-group--block">
-            <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:eb36740b6477b242f8ea64bae32f4deebc0ea36d79670f14193206f4a1cc946a" target="_blank">Dataset</a>
-            <a className="button button--secondary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:66d43db7a49467a13254fdbb70897cc3ff66a652790a6de8e69957b98aeefe0c" target="_blank">Algorithm</a>
+            <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:eb36740b6477b242f8ea64bae32f4deebc0ea36d79670f14193206f4a1cc946a" target="_blank">Conjunto de datos</a>
+            <Link className="button button--secondary" to="/algoritmos/terrain-lab">Algoritmo</Link>
           </div>
         </div>
       </div>
@@ -104,19 +110,68 @@ Explora cómo los equipos aplican el proyecto en diferentes contextos. Nuestro d
         <div className="card__header">
           <h3>Análisis de granja - El Sol Dorado, Viña Alta (2025-10-09)</h3>
         </div>
-        <div className="card__body">
+        <div className="card__body with-image">
+          <img className="case-image" src="/img/analysis5.jpg" alt="Análisis de granja - El Sol Dorado, Viña Alta" />
           <p>
-            Índices de vigor y diagnóstico de clorosis férrica en viñedo de altura.{' '}
+            Diagnóstico de viñedo de altura en Viña Alta utilizando índices de vigor. Se centra específicamente en la detección de clorosis férrica para gestionar la salud de la vid y asegurar una calidad de uva premium. Auditado con el Terrain Lab Engine para validar y agregar resultados de laboratorio sin exponer datos brutos.{' '}
             <Link to="/documentacion/use-cases">Más info</Link>
           </p>
         </div>
         <div className="card__footer">
           <div className="button-group button-group--block">
-            <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:d437e879315ecf6a4a369826e3a3d8bafa2f3aab11987c4fd1fcd02181c0485f" target="_blank">Dataset</a>
-            <a className="button button--secondary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:66d43db7a49467a13254fdbb70897cc3ff66a652790a6de8e69957b98aeefe0c" target="_blank">Algorithm</a>
+            <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:d437e879315ecf6a4a369826e3a3d8bafa2f3aab11987c4fd1fcd02181c0485f" target="_blank">Conjunto de datos</a>
+            <Link className="button button--secondary" to="/algoritmos/terrain-lab">Algoritmo</Link>
           </div>
         </div>
       </div>
+    </div>
+
+    {/* Card 6 - Extended Multi-Farm Dataset */}
+    <div className="col col--12 margin-bottom--lg">
+        <div className="card">
+            <div className="card__header">
+                <h3>Dataset Extendido Multi-Granja (23 análisis / 9 granjas)</h3>
+            </div>
+            <div className="card__body">
+                <p><strong>Monitoreo Extendido de Suelo en Múltiples Granjas</strong></p>
+                <p>
+                Este caso de uso muestra un algoritmo más avanzado diseñado para operar en un conjunto de datos más rico que contiene 23 análisis en 9 granjas. El flujo de trabajo extendido agrega mediciones por granja, campo y fecha, identificando patrones temporales, variabilidad y líneas base de salud del suelo a escala regional.
+                </p>
+                <p>
+                Al procesar datos agronómicos más diversos (nutrients, estructura, humedad, conductividad, materia orgánica), el algoritmo genera indicadores de comparación entre granjas y tendencias longitudinales. Demuestra cómo la plataforma permite análisis escalables, procesamiento federado seguro y colaboración con soberanía de datos entre múltiples propietarios.
+                </p>
+            </div>
+            <div className="card__footer">
+                {/* Placeholders for links if not provided */}
+                <div className="button-group button-group--block">
+                     <Link className="button button--secondary margin-left--sm" to="/algoritmos/structural-analyzer">Algoritmo</Link>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     {/* Card 7 - Questionary-Based Analysis */}
+    <div className="col col--12 margin-bottom--lg">
+        <div className="card">
+            <div className="card__header">
+                <h3>Análisis Basado en Cuestionarios (estudio científico sensible)</h3>
+            </div>
+            <div className="card__body">
+                 <p><strong>Analítica Social y de Percepción Preservadora de la Privacidad (Dataset de Cuestionario)</strong></p>
+                <p>
+                Este caso aplica nuestro algoritmo simple de datos derivados a un cuestionario de investigación de un estudio científico sobre agricultura regenerativa. Debido a que la encuesta contiene respuestas sensibles y no publicables, el algoritmo produce intencionalmente solo indicadores agregados y no identificativos, como recuentos, distribución de categorías y frecuencias de respuestas.
+                </p>
+                <p>
+                Los resultados cumplen con los requisitos de protección de datos y permiten la publicación segura de conocimientos sobre actitudes, preocupaciones ambientales, conocimiento de la agricultura regenerativa, percepción de los sistemas alimentarios y aceptación de nuevas tecnologías como blockchain.
+                Este caso demuestra cómo Compute-to-Data puede respaldar estudios científicos al permitir análisis en conjuntos de datos protegidos sin exponer información personal o encuestas sin procesar.
+                </p>
+            </div>
+            <div className="card__footer">
+                 <div className="button-group button-group--block">
+                     <Link className="button button--secondary margin-left--sm" to="/algoritmos/survey-insight">Algoritmo</Link>
+                </div>
+            </div>
+        </div>
     </div>
   </div>
 </div>

@@ -102,6 +102,46 @@
     0 6px 12px rgba(0, 0, 0, 0.40);
 }
 
+/* Casos page: place image on the right side of the text within each card body (only for cards marked with .with-image) */
+.casos-page .card__body.with-image {
+  display: flex;
+  flex-direction: row-reverse; /* puts the image (first child) on the right */
+  gap: 1rem;
+  align-items: stretch;
+}
+
+/* Casos page: uniform square images inside cards */
+.casos-page .card__body.with-image .case-image {
+  width: 160px;            /* fixed square thumbnail width */
+  flex: 0 0 160px;         /* prevent shrinking/growing */
+  aspect-ratio: 1 / 1;     /* keep perfect square */
+  object-fit: cover;       /* crop to fill square if needed */
+  display: block;
+  border-radius: 8px;
+  margin: 0;               /* no bottom margin when aligned horizontally */
+}
+
+/* Ensure paragraph takes remaining width nicely */
+.casos-page .card__body.with-image p {
+  flex: 1 1 auto;
+  margin: 0; /* tighten spacing since layout provides gap */
+}
+
+/* Responsive: stack vertically on small screens */
+@media (max-width: 768px) {
+  .casos-page .card__body.with-image {
+    flex-direction: column;
+  }
+  .casos-page .card__body.with-image .case-image {
+    width: 100%;      /* full width image on small screens */
+    flex: 0 0 auto;
+    margin-bottom: 0.5rem;
+  }
+  .casos-page .card__body.with-image p {
+    margin: 0;
+  }
+}
+
 /* Underline the active/selected topbar (navbar) link */
 .navbar__link--active {
   text-decoration-line: underline;

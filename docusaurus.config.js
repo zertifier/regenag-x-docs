@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -62,6 +62,18 @@ const config = {
     locales: ['es', 'en', 'ca'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'algoritmos',
+        path: 'algoritmos',
+        routeBasePath: 'algoritmos',
+        sidebarPath: require.resolve('./sidebarsAlgoritmos.js'),
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -105,6 +117,7 @@ const config = {
         items: [
           { type: 'doc', docId: 'about', label: 'Documentación', position: 'left' },
           { to: 'casos', label: 'Casos', position: 'left' },
+          { type: 'doc', docId: 'index', docsPluginId: 'algoritmos', label: 'Algoritmos', position: 'left' },
           { to: 'videos', label: 'Vídeos', position: 'left' },
           { to: 'contacto', label: 'Contacto', position: 'left' },
           {

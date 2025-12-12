@@ -48,12 +48,12 @@ const sidebars = {
             label: techResourcesLabel,
             collapsed: true,
             items: [
-                {type: 'doc', id: 'compute-to-data'},
-                {type: 'doc', id: 'gaiax-standards'},
-                {type: 'doc', id: 'market-policy'},
-                {type: 'doc', id: 'ocean-protocol-market'},
-                {type: 'doc', id: 'ontologies'},
-                {type: 'doc', id: 'verifiable-credentials'},
+                { type: 'doc', id: 'compute-to-data' },
+                { type: 'doc', id: 'gaiax-standards' },
+                { type: 'doc', id: 'market-policy' },
+                { type: 'doc', id: 'ocean-protocol-market' },
+                { type: 'doc', id: 'ontologies' },
+                { type: 'doc', id: 'verifiable-credentials' },
             ]
         }
     ],

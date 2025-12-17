@@ -20,12 +20,12 @@ These basic insights help teams understand typical data flows in the agriculture
     <div className="col col--12 margin-bottom--lg">
       <div className="card">
         <div className="card__header">
-          <h3>Farm Analysis - Verdevida Granja, Campo Norte (2025-10-09)</h3>
+          <h3>Monitoring soil health in a dairy cow silage system (Azores, Portugal)</h3>
         </div>
         <div className="card__body with-image">
           <img className="case-image" src="/img/analysis1.png" alt="Farm Analysis - Verdevida Granja, Campo Norte" />
           <p>
-            Analysis of Verdevida's North Field focusing on initial soil structure and fertility baselines. This dataset helps optimize fertilization strategies and plan crop rotations effectively for the upcoming season. Processed with the Terrain Lab Audit Engine for safe pre-checks and validation.{' '}
+              This pilot focuses on monitoring soil health in a dairy cow production system dedicated to maize and ryegrass silage in the Azores. Its main goal is to assess how conventional, high-input management practices affect soil quality and microbial activity, and to establish a baseline for transitioning towards regenerative practices. The pilot emphasizes the use of measurable soil indicators to support evidence-based decision-making while ensuring that farmers retain full ownership and control over their data.{' '}
             <Link to="/documentacion/use-cases">More info</Link>
           </p>
         </div>
@@ -42,12 +42,12 @@ These basic insights help teams understand typical data flows in the agriculture
     <div className="col col--12 margin-bottom--lg">
       <div className="card">
         <div className="card__header">
-          <h3>Farm Analysis - Las Nubes, Sector A (2025-10-09)</h3>
+          <h3>Monitoring regenerative pasture practices in dairy goat farming (Beira Baixa, Portugal)</h3>
         </div>
         <div className="card__body with-image">
           <img className="case-image" src="/img/analysis2.png" alt="Farm Analysis - Las Nubes, Sector A" />
           <p>
-            Detailed nutrient balance report for Sector A at Las Nubes. Monitors N-P-K levels and organic matter post-harvest to determine specific soil amendment needs. Executed with the Terrain Lab Audit Engine to ensure dataset integrity before downstream analysis.{' '}
+              This pilot focuses on monitoring the impact of regenerative pasture management in a dairy goat farming system in the Beira Baixa region. Its main goal is to demonstrate how biodiverse, low-disturbance pastures improve soil health, biodiversity, and nutrient cycling under Mediterranean conditions. The pilot supports the adoption of regenerative practices by providing objective soil health evidence, while preserving farmers’ data sovereignty and control over how their information is used.{' '}
             <Link to="/documentacion/use-cases">More info</Link>
           </p>
         </div>
@@ -64,12 +64,12 @@ These basic insights help teams understand typical data flows in the agriculture
     <div className="col col--12 margin-bottom--lg">
       <div className="card">
         <div className="card__header">
-          <h3>Farm Analysis - El Sol Dorado, Parcela del Río (2025-10-09)</h3>
+          <h3>Monitoring grazing and soil disturbance regimes in beef cattle systems (Beira Baixa, Portugal)</h3>
         </div>
         <div className="card__body with-image">
           <img className="case-image" src="/img/analysis3.jpg" alt="Farm Analysis - El Sol Dorado, Parcela del Río" />
           <p>
-            Precision irrigation study for the riverside parcel. Continuous monitoring of moisture retention and electrical conductivity ensures optimal water usage in this sensitive riparian zone. Uses the Terrain Lab Audit Engine to verify and summarize lab measurements securely.{' '}
+              This pilot focuses on monitoring soil health under different grazing and soil disturbance regimes in an organic beef cattle system in Beira Baixa. Its main goal is to compare grazed, no-till, and ungrazed plots to better understand how management choices influence soil functionality and microbial communities over time. The pilot enables data-driven evaluation of regenerative grazing practices while ensuring full data ownership and control remain with the farmer.{' '}
             <Link to="/documentacion/use-cases">More info</Link>
           </p>
         </div>
@@ -80,50 +80,6 @@ These basic insights help teams understand typical data flows in the agriculture
           </div>
         </div>
       </div>
-    </div>
-
-    {/* Card 4 */}
-    <div className="col col--12 margin-bottom--lg">
-      <div className="card">
-        <div className="card__header">
-          <h3>Farm Analysis - El Sol Dorado, Campo Olivares (2025-10-09)</h3>
-        </div>
-        <div className="card__body with-image">
-          <img className="case-image" src="/img/analysis4.png" alt="Farm Analysis - El Sol Dorado, Campo Olivares" />
-          <p>
-            Health assessment for the young olive grove at Campo Olivares. The evaluation of pH levels and micronutrient availability effectively supports early-stage vigor and growth. Powered by the Terrain Lab Audit Engine to create a privacy-preserving diagnostic snapshot.{' '}
-            <Link to="/documentacion/use-cases">More info</Link>
-          </p>
-        </div>
-        <div className="card__footer">
-          <div className="button-group button-group--block">
-            <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:eb36740b6477b242f8ea64bae32f4deebc0ea36d79670f14193206f4a1cc946a" target="_blank">Dataset</a>
-            <Link className="button button--secondary" to="/algoritmos/terrain-lab">Algorithm</Link>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    {/* Card 5 */}
-    <div className="col col--12 margin-bottom--lg">
-        <div className="card">
-            <div className="card__header">
-                <h3>Farm Analysis - El Sol Dorado, Viña Alta (2025-10-09)</h3>
-            </div>
-            <div className="card__body with-image">
-          <img className="case-image" src="/img/analysis5.jpg" alt="Farm Analysis - El Sol Dorado, Viña Alta" />
-          <p>
-            High-altitude vineyard diagnostics at Viña Alta using vigor indices. Specifically targets iron chlorosis detection to manage vine health and ensure premium grape quality. Audited with the Terrain Lab Engine to validate and aggregate lab results without exposing raw data.{' '}
-            <Link to="/documentacion/use-cases">More info</Link>
-          </p>
-        </div>
-            <div className="card__footer">
-                <div className="button-group button-group--block">
-                    <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:d437e879315ecf6a4a369826e3a3d8bafa2f3aab11987c4fd1fcd02181c0485f" target="_blank">Dataset</a>
-                    <Link className="button button--secondary" to="/algoritmos/terrain-lab">Algorithm</Link>
-                </div>
-            </div>
-        </div>
     </div>
 
     {/* Card 6 - Extended Multi-Farm Dataset */}

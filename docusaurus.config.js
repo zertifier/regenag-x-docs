@@ -62,6 +62,7 @@ const config = {
     locales: ['es', 'en', 'ca'],
   },
 
+
   plugins: [
     [
       '@docusaurus/plugin-content-docs',
@@ -70,6 +71,15 @@ const config = {
         path: 'algoritmos',
         routeBasePath: 'algoritmos',
         sidebarPath: require.resolve('./sidebarsAlgoritmos.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'casos',
+        path: 'casos',
+        routeBasePath: 'casos',
+        sidebarPath: require.resolve('./sidebarsCasos.js'),
       },
     ],
   ],
@@ -116,7 +126,7 @@ const config = {
         },
         items: [
           { type: 'doc', docId: 'about', label: 'Documentación', position: 'left' },
-          { to: 'casos', label: 'Casos', position: 'left' },
+          { type: 'doc', docId: 'index', docsPluginId: 'casos', label: 'Casos', position: 'left' },
           { type: 'doc', docId: 'index', docsPluginId: 'algoritmos', label: 'Algoritmos', position: 'left' },
           { to: 'videos', label: 'Vídeos', position: 'left' },
           { to: 'contacto', label: 'Contacto', position: 'left' },

@@ -1,7 +1,9 @@
 ---
 title: Casos
 description: Exemples reals i patrons per aplicar el projecte.
-slug: /casos
+slug: /
+sidebar_label: Casos
+sidebar_position: 1
 ---
 
 import Link from '@docusaurus/Link';
@@ -20,13 +22,13 @@ Aquests coneixements bàsics ajuden els equips a comprendre els fluxos de dades 
     <div className="col col--12 margin-bottom--lg">
       <div className="card">
         <div className="card__header">
-          <h3>Anàlisi de granja - Verdevida Granja, Camp Nord (2025-10-09)</h3>
+          <h3>Monitoratge de la salut del sòl en un sistema d'ensilatge de vaques lleteres (Açores, Portugal)</h3>
         </div>
         <div className="card__body with-image">
           <img className="case-image" src="/img/analysis1.png" alt="Anàlisi de granja - Verdevida Granja, Camp Nord" />
           <p>
-            Anàlisi detallada del Camp Nord de Verdevida Granja, centrada en els perfils inicials de fertilitat i estructura del sòl. Aquest dataset permet optimitzar les estratègies de fertilització i planificar les rotacions de cultius de manera efectiva per a la propera temporada. Processat amb el Terrain Lab Audit Engine per a precomprovacions i validació segura.{' '}
-            <Link to="/documentacion/use-cases">Més informació</Link>
+            Aquest pilot se centra en monitorar la salut del sòl en un sistema de producció de vaques lleteres dedicat a l'ensilatge de blat de moro i raigràs a les Açores. El seu objectiu principal és avaluar com les pràctiques de gestió convencionals d'alts insums afecten la qualitat del sòl i l'activitat microbiana, i establir una línia base per a la transició cap a pràctiques regeneratives. El pilot emfatitza l'ús d'indicadors de sòl mesurables per donar suport a la presa de decisions basada en evidència, assegurant al mateix temps que els agricultors conservin la plena propietat i control sobre les seves dades.{' '}
+            <Link to="./details/farm-a">Més informació</Link>
           </p>
         </div>
         <div className="card__footer">
@@ -42,13 +44,13 @@ Aquests coneixements bàsics ajuden els equips a comprendre els fluxos de dades 
     <div className="col col--12 margin-bottom--lg">
       <div className="card">
         <div className="card__header">
-          <h3>Anàlisi de granja - Las Nubes, Sector A (2025-10-09)</h3>
+          <h3>Monitoratge de pràctiques de pastura regenerativa en la cria de cabres lleteres (Beira Baixa, Portugal)</h3>
         </div>
         <div className="card__body with-image">
           <img className="case-image" src="/img/analysis2.png" alt="Anàlisi de granja - Las Nubes, Sector A" />
           <p>
-            Informe de balanç de nutrients per al Sector A a Las Nubes. Monitoritza els nivells de N‑P‑K i la matèria orgànica després de la collita de tardor per determinar les necessitats específiques d'esmenes del sòl. Executat amb el Terrain Lab Audit Engine per garantir la integritat del dataset abans de l'anàlisi posterior.{' '}
-            <Link to="/documentacion/use-cases">Més informació</Link>
+            Aquest pilot se centra en monitorar l'impacte de la gestió de pastures regeneratives en un sistema de cria de cabres lleteres a la regió de Beira Baixa. El seu objectiu principal és demostrar com les pastures biodiverses i de baixa pertorbació milloren la salut del sòl, la biodiversidad i el cicle de nutrients en condicions mediterrànies. El pilot dóna suport a l'adopció de pràctiques regeneratives proporcionant evidència objectiva de la salut del sòl, preservant al mateix temps la sobirania de les dades dels agricultors i el control sobre com s'utilitza la seva informació.{' '}
+            <Link to="./details/farm-b">Més informació</Link>
           </p>
         </div>
         <div className="card__footer">
@@ -64,62 +66,18 @@ Aquests coneixements bàsics ajuden els equips a comprendre els fluxos de dades 
     <div className="col col--12 margin-bottom--lg">
       <div className="card">
         <div className="card__header">
-          <h3>Anàlisi de granja - El Sol Dorado, Parcel·la del Riu (2025-10-09)</h3>
+          <h3>Monitoratge de règims de pastura i pertorbació del sòl en sistemes de bestiar de carn (Beira Baixa, Portugal)</h3>
         </div>
         <div className="card__body with-image">
           <img className="case-image" src="/img/analysis3.jpg" alt="Anàlisi de granja - El Sol Dorado, Parcel·la del Riu" />
           <p>
-            Estudi de reg de precisió per a la Parcel·la del Riu. El seguiment continu de la retenció d'humitat i la conductivitat elèctrica assegura un ús òptim de l'aigua en aquesta zona de ribera sensible. Fa servir el Terrain Lab Audit Engine per verificar i resumir mesures de laboratori de manera segura.{' '}
-            <Link to="/documentacion/use-cases">Més informació</Link>
+            Aquest pilot se centra en monitorar la salut del sòl sota diferents règims de pastura i pertorbació del sòl en un sistema de bestiar de carn orgànic a Beira Baixa. El seu objectiu principal és comparar parcel·les pasturades, de sembra directa i no pasturades per comprendre millor com les eleccions de gestió influeixen en la funcionalitat del sòl i les comunitats microbianes al llarg del temps. El pilot permet una avaluació basada en dades de les pràctiques de pastura regenerativa, assegurant que la propietat i el control total de les dades romanguin amb l'agricultor.{' '}
+            <Link to="./details/farm-c">Més informació</Link>
           </p>
         </div>
         <div className="card__footer">
           <div className="button-group button-group--block">
             <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:cc0bee64c03b809aabddf63a93f756188d274473d051d1bcaf06728d61ace73d" target="_blank">Conjunt de dades</a>
-            <Link className="button button--secondary" to="/algoritmos/terrain-lab">Algorisme</Link>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    {/* Card 4 */}
-    <div className="col col--12 margin-bottom--lg">
-      <div className="card">
-        <div className="card__header">
-          <h3>Anàlisi de granja - El Sol Dorado, Camp Olivares (2025-10-09)</h3>
-        </div>
-        <div className="card__body with-image">
-          <img className="case-image" src="/img/analysis4.png" alt="Anàlisi de granja - El Sol Dorado, Camp Olivares" />
-          <p>
-            Avaluació de salut per a l'oliverar jove a Camp Olivares. L'anàlisi dels nivells de pH i la disponibilitat de microelements dóna suport eficaçment al vigor i el creixement en les primeres etapes. Impulsat pel Terrain Lab Audit Engine per generar una instantània diagnòstica preservant la privacitat.{' '}
-            <Link to="/documentacion/use-cases">Més informació</Link>
-          </p>
-        </div>
-        <div className="card__footer">
-          <div className="button-group button-group--block">
-            <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:eb36740b6477b242f8ea64bae32f4deebc0ea36d79670f14193206f4a1cc946a" target="_blank">Conjunt de dades</a>
-            <Link className="button button--secondary" to="/algoritmos/terrain-lab">Algorisme</Link>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    {/* Card 5 */}
-    <div className="col col--12 margin-bottom--lg">
-      <div className="card">
-        <div className="card__header">
-          <h3>Anàlisi de granja - El Sol Dorado, Vinya Alta (2025-10-09)</h3>
-        </div>
-        <div className="card__body with-image">
-          <img className="case-image" src="/img/analysis5.jpg" alt="Anàlisi de granja - El Sol Dorado, Vinya Alta" />
-          <p>
-            Diagnòstic de vinya d'alçada a Vinya Alta utilitzant índexs de vigor. Se centra específicament en la detecció de clorosi fèrrica per gestionar la salut del cep i assegurar una qualitat de raïm premium. Auditat amb el Terrain Lab Engine per validar i agregar resultats de laboratori sense exposar dades brutes.{' '}
-            <Link to="/documentacion/use-cases">Més informació</Link>
-          </p>
-        </div>
-        <div className="card__footer">
-          <div className="button-group button-group--block">
-            <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:d437e879315ecf6a4a369826e3a3d8bafa2f3aab11987c4fd1fcd02181c0485f" target="_blank">Conjunt de dades</a>
             <Link className="button button--secondary" to="/algoritmos/terrain-lab">Algorisme</Link>
           </div>
         </div>

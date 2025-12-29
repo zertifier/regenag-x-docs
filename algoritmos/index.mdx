@@ -1,6 +1,7 @@
 ---
 title: Algoritmos
 description: Algoritmos Compute-to-Data para minería de datos preservando la privacidad.
+sidebar_position: 1
 ---
 
 # Algoritmos Compute-to-Data
@@ -25,20 +26,20 @@ Esta sección detalla los algoritmos utilizados en nuestra plataforma para prese
 
 A continuación se presentan tres motores principales diseñados para diferentes etapas del análisis de datos agrícolas:
 
-### 1. [Motor de Auditoría y Pre-procesamiento de Laboratorio de Terreno](./terrain-lab)
-**Terrain Lab Input Audit & Pre-Processing Engine (C2D Safe Inspector)**
-
-Un inspector de seguridad que verifica la integridad, formato y legibilidad de los archivos de laboratorio de suelo y terreno sin exponer su contenido. Genera informes técnicos de auditoría para asegurar que los datos son aptos para el análisis científico.
-[Leer más](./terrain-lab)
-
-### 2. [Analizador Estructural de Granjas y Campos](./structural-analyzer)
+### 1. [Analizador Estructural de Granjas y Campos](./zertifarm/structural-analyzer)
 **Farm & Field Structural Analyzer (Baseline Terrain Metrics Engine)**
 
 Una herramienta de diagnóstico fundamental que cuenta granjas, campos, análisis y densidad de mediciones. Proporciona una visión general de la estructura y completitud del dataset sin revelar valores específicos de las muestras.
-[Leer más](./structural-analyzer)
+[Leer más](./zertifarm/structural-analyzer)
 
-### 3. [Motor de Insights de Encuestas](./survey-insight)
+### 2. [Motor de Insights de Encuestas](./zertifarm/survey-insight)
 **Survey Insight Engine (C2D Transform)**
 
 Un algoritmo diseñado para procesar respuestas de encuestas sensibles. Extrae patrones de comportamiento, preocupaciones de sostenibilidad y métricas de adopción tecnológica, transformando respuestas privadas en estadísticas agregadas listas para publicación científica.
-[Leer más](./survey-insight)
+[Leer más](./zertifarm/survey-insight)
+
+### 3. [Motor de Auditoría y Pre-procesamiento de Laboratorio de Terreno](./zertifarm/terrain-lab)
+**Terrain Lab Input Audit & Pre-Processing Engine (C2D Safe Inspector)**
+
+Un inspector de seguridad que verifica la integridad, formato y legibilidad de los archivos de laboratorio de suelo y terreno sin exponer su contenido. Genera informes técnicos de auditoría para asegurar que los datos son aptos para el análisis científico.
+[Leer más](./zertifarm/terrain-lab)

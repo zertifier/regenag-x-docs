@@ -113,8 +113,8 @@
 
 /* Casos page: uniform square images inside cards */
 .casos-page .card__body.with-image .case-image {
-  width: 160px;            /* fixed square thumbnail width */
-  flex: 0 0 160px;         /* prevent shrinking/growing */
+  width: 200px;            /* fixed square thumbnail width */
+  flex: 0 0 200px;         /* prevent shrinking/growing */
   aspect-ratio: 1 / 1;     /* keep perfect square */
   object-fit: cover;       /* crop to fill square if needed */
   display: block;

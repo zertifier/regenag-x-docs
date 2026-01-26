@@ -1,0 +1,312 @@
+---
+title: Analítica de CO2 multi-granja (Compute-to-Data)
+sidebar_label: Conjunt de dades C2D CO2
+sidebar_position: 2
+---
+
+import Link from '@docusaurus/Link';
+
+# Analítica de CO2 multi-granja (Compute-to-Data)
+
+## Descripció general
+
+Accés exclusiu a mesuraments de CO2 a l'aire lliure de múltiples granges mitjançant algoritmes Compute-to-Data. En lloc de descarregar dades brutes de sensors, els usuaris obtenen anàlisis segures per a la privacitat, incloent mètriques de salut de sensors, empremtes regionals de CO2, comportament temporal dia-nit i detecció d'anomalies.
+
+<div className="card margin-bottom--lg">
+    <div className="card__image">
+        <img src="/img/zertiair3.png" alt="Zertiair C2D Dataset" />
+    </div>
+</div>
+
+## Característiques del conjunt de dades
+
+### Tipus d'accés
+**Actiu computat - només algoritme**
+
+Les dades no es descarreguen directament. En el seu lloc, els usuaris executen **algoritmes autoritzats** que processen les dades in situ i retornen únicament els resultats analítics.
+
+### Paradigma Compute-to-Data (C2D)
+
+Aquest enfocament permet que el CO2 a l'aire lliure funcioni com una **condició de contorn fiable** per a models avançats sense exposar mesuraments crus, permetent la reutilització segura i la monetització de la intel·ligència ambiental.
+
+## Algoritmes disponibles
+
+El conjunt de dades inclou accés a **cinc algoritmes gratuïts** d'enriquiment i anàlisi:
+
+### 1. Sensor Inventory & Battery Health Analytics
+
+<div className="card margin-bottom--md">
+    <div className="card__body">
+        <h4>Analítica d'inventari i salut de sensors</h4>
+        <p>
+            Analitza la població de sensors, el comportament de mostreig, el rendiment de les bateries i detecta patrons anormals de descàrrega, tot dins d'un entorn Compute-to-Data.
+        </p>
+        <p><strong>Sortides generades:</strong></p>
+        <ul>
+            <li>Inventari complet de sensors actius</li>
+            <li>Estadístiques de freqüència de mostreig</li>
+            <li>Anàlisi de salut de bateries</li>
+            <li>Detecció de patrons anormals de descàrrega</li>
+            <li>Predicció de manteniment preventiu</li>
+        </ul>
+        <Link className="button button--secondary button--sm" to="/algoritmos/zertiair/sensor-inventory">
+            Veure detalls de l'algoritme ->
+        </Link>
+    </div>
+</div>
+
+### 2. Temporal CO2 Analytics (Day/Night & Trends)
+
+<div className="card margin-bottom--md">
+    <div className="card__body">
+        <h4>Analítica temporal de CO2</h4>
+        <p>
+            Analitza patrons diürns, tendències i anomalies temporals en dades de CO2 per a sensors i regions.
+        </p>
+        <p><strong>Sortides generades:</strong></p>
+        <ul>
+            <li>Patrons dia/nit de concentració de CO2</li>
+            <li>Tendències temporals a curt i llarg termini</li>
+            <li>Identificació de cicles i periodicitat</li>
+            <li>Detecció d'anomalies temporals</li>
+            <li>Comparatives entre períodes</li>
+        </ul>
+        <Link className="button button--secondary button--sm" to="/algoritmos/zertiair/temporal-analytics">
+            Veure detalls de l'algoritme ->
+        </Link>
+    </div>
+</div>
+
+### 3. Regional CO2 Analytics & Benchmarking
+
+<div className="card margin-bottom--md">
+    <div className="card__body">
+        <h4>Analítica regional i benchmarking</h4>
+        <p>
+            Calcula estadístiques regionals de CO2, tendències i variabilitat per permetre comparacions multi-ubicació segures sense exposar dades brutes de sensors.
+        </p>
+        <p><strong>Sortides generades:</strong></p>
+        <ul>
+            <li>Empremtes regionals de CO2 (mitjanes, medianes, percentils)</li>
+            <li>Comparatives entre regions anonimitzades</li>
+            <li>Anàlisi de variabilitat regional</li>
+            <li>Identificació d'outliers geogràfics</li>
+            <li>Rànquings de qualitat de l'aire per regió</li>
+        </ul>
+        <Link className="button button--secondary button--sm" to="/algoritmos/zertiair/regional-analytics">
+            Veure detalls de l'algoritme ->
+        </Link>
+    </div>
+</div>
+
+### 4. Sensor-Level CO2 Analytics & Pollution Benchmarking
+
+<div className="card margin-bottom--md">
+    <div className="card__body">
+        <h4>Analítica a nivell de sensor</h4>
+        <p>
+            Detecta sensors d'alta contaminació, volatilitat i comportament anormal mitjançant analítica segura per sensor de CO2.
+        </p>
+        <p><strong>Sortides generades:</strong></p>
+        <ul>
+            <li>Identificació de sensors amb alta concentració de CO2</li>
+            <li>Anàlisi de volatilitat per sensor</li>
+            <li>Comparatives de contaminació entre sensors</li>
+            <li>Detecció de comportaments atípics</li>
+            <li>Mètriques de rendiment individual</li>
+        </ul>
+        <Link className="button button--secondary button--sm" to="/algoritmos/zertiair/sensor-co2-analytics">
+            Veure detalls de l'algoritme ->
+        </Link>
+    </div>
+</div>
+
+### 5. Advanced CO2 & Sensor Anomaly Detection
+
+<div className="card margin-bottom--md">
+    <div className="card__body">
+        <h4>Detecció avançada d'anomalies</h4>
+        <p>
+            Identifica esdeveniments extrems, pics, drift i anomalies de segon ordre a través de sensors i regions.
+        </p>
+        <p><strong>Sortides generades:</strong></p>
+        <ul>
+            <li>Detecció d'esdeveniments extrems de CO2</li>
+            <li>Identificació de pics anormals</li>
+            <li>Anàlisi de drift en sensors</li>
+            <li>Anomalies de segon ordre (canvis en patrons)</li>
+            <li>Alertes primerenques de mal funcionament</li>
+        </ul>
+        <Link className="button button--secondary button--sm" to="/algoritmos/zertiair/anomalies-analytics">
+            Veure detalls de l'algoritme ->
+        </Link>
+    </div>
+</div>
+
+## Avantatges del model C2D
+
+### Privacitat i sobirania de la dada
+- **Les dades no surten de l'entorn controlat**
+- Sobirania total del proveïdor de dades
+- Sense risc de reidentificació
+- Compliment automàtic del RGPD
+
+### Seguretat
+- Només es poden executar algoritmes autoritzats
+- Traçabilitat completa d'execucions
+- Auditoria de tots els accessos
+- Control granular de permisos
+
+### Monetització
+- Generació de valor sense exposar dades brutes
+- Model econòmic basat en ús
+- Compensació automàtica al proveïdor
+- Marketplace d'algoritmes
+
+## Característiques tècniques
+
+### Infraestructura
+- **Plataforma**: Ocean Enterprise v1
+- **Espai de dades**: RegenAg-X (Gaia-X Lighthouse Project)
+- **Execució**: Entorns segurs de Compute-to-Data
+- **Blockchain**: Registre immutable d'execucions
+
+### Governança
+- **Identitats**: Self-Sovereign Identity (SSI)
+- **Polítiques**: Smart contracts automatitzats
+- **Credencials**: Verifiable Credentials (VC)
+- **Traçabilitat**: Completa i auditable
+
+### Dades processades
+- **Origen**: Sèries temporals de CO2 de múltiples granges
+- **Freqüència**: Actualització mensual
+- **Qualitat**: Validat i certificat
+- **Cobertura**: Multi-regió, multi-sensor
+
+## Casos d'ús
+
+### Recerca avançada
+- Anàlisi de patrons complexos sense accés a dades brutes
+- Estudis multi-granja preservant la privacitat
+- Desenvolupament de models predictius
+- Recerca en sostenibilitat
+
+### Serveis comercials
+- Desenvolupament d'algoritmes propietaris sobre dades certificades
+- Serveis de consultoria basats en analítica
+- Productes SaaS de monitoratge ambiental
+- Eines de benchmarking sectorial
+
+### Compliment i reporting
+- Generació d'informes de sostenibilitat
+- Auditories ambientals certificades
+- Evidències per a certificacions
+- Compliment normatiu automatitzat
+
+## Accés al conjunt de dades
+
+### Identificador únic
+**DID**: `did:ope:a9f5bca326976e3a12c25d1d8bee85389f81895dc0fcb492c9a062417e8746aa`
+
+### Accés al servei C2D
+- [Marketplace RegenAg-X](https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:a9f5bca326976e3a12c25d1d8bee85389f81895dc0fcb492c9a062417e8746aa)
+- Requereix autenticació Web3
+- Necessita Credencials Verificables (VC) segons polítiques
+
+### Metadades DDO
+[Metadades DDO completes](http://gist.githubusercontent.com/freezerain/d0fac583bd73a27a25bc8c3524182385/raw/54299e6807dfd8a7f82c7159d701a046ef21ed66/Sensors%2520CO2%2520data%2520computed%2520access%2520-%2520metadata%2520DDO)
+
+## Polítiques d'accés
+
+### Modalitats disponibles
+1. **Accés mitjançant algoritmes públics** (5 algoritmes gratuïts)
+2. **Desenvolupament d'algoritmes personalitzats** (requereix autorització)
+3. **Accés mitjançant Credencials Verificables** (VC)
+
+### Control d'accés
+- Llistes blanques mitjançant carteres Web3
+- Polítiques configurables pel proveïdor
+- Regles basades en la possessió de VC
+- Traçabilitat completa d'execucions
+
+## Model econòmic
+
+### Per a proveïdors de dades (Megatró SL)
+- Retribució per ús de dades
+- Sense pèrdua de sobirania
+- Monetització continuada
+- Control total sobre polítiques
+
+### Per a consumidors de dades
+- Accés a dades certificades d'alta qualitat
+- Sense necessitat d'emmagatzematge
+- Pagament per ús real
+- Algoritmes optimitzats inclosos
+
+## Compliment normatiu
+
+Aquest conjunt de dades C2D compleix amb:
+- Reglament (UE) 2016/679 (GDPR) - Privacy by Design
+- Reglament (UE) 2022/868 (Data Governance Act)
+- Reglament Europeu de Dades (Data Act)
+- Reglament (UE) 2024/1689 (AI Act)
+- UNE 0087:2025 - Espais de Dades
+- Marc de Confiança Gaia-X
+
+## Comparativa: Raw vs C2D
+
+| Característica | Conjunt de dades Raw | Conjunt de dades C2D |
+|----------------|----------------------|----------------------|
+| **Descàrrega de dades** | Sí | No |
+| **Privacitat màxima** | Anonimitzat | Absoluta |
+| **Algoritmes inclosos** | No | 5 gratuïts |
+| **Anàlisi avançada** | Manual | Automatitzada |
+| **Monetització** | Un cop | Recurrent |
+| **Sobirania de la dada** | Compartida | Total |
+| **Ideal per a** | Recerca bàsica | Serveis comercials |
+
+## Pròxims passos
+
+<div className="row margin-top--lg">
+    <div className="col col--6">
+        <div className="card">
+            <div className="card__header">
+                <h3>Començar a usar</h3>
+            </div>
+            <div className="card__body">
+                <ol>
+                    <li>Obtenir una cartera Web3</li>
+                    <li>Accedir al marketplace</li>
+                    <li>Seleccionar un algoritme</li>
+                    <li>Executar l'anàlisi</li>
+                </ol>
+            </div>
+            <div className="card__footer">
+                <a className="button button--primary button--block" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:a9f5bca326976e3a12c25d1d8bee85389f81895dc0fcb492c9a062417e8746aa" target="_blank">
+                    Accedir al marketplace
+                </a>
+            </div>
+        </div>
+    </div>
+    <div className="col col--6">
+        <div className="card">
+            <div className="card__header">
+                <h3>Explorar algoritmes</h3>
+            </div>
+            <div className="card__body">
+                <p>Descobreix els cinc algoritmes disponibles i les seves capacitats analítiques.</p>
+            </div>
+            <div className="card__footer">
+                <Link className="button button--secondary button--block" to="/algoritmos/zertiair/sensor-inventory">
+                    Veure algoritmes
+                </Link>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div className="margin-top--lg">
+    <Link className="button button--link" to="/casos/zertiair">
+        Tornar a Zertiair
+    </Link>
+</div>

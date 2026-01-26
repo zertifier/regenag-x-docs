@@ -1,0 +1,157 @@
+---
+title: Outdoor CO2 Dataset (Raw)
+sidebar_label: Raw CO2 Dataset
+sidebar_position: 1
+---
+
+import Link from '@docusaurus/Link';
+
+# Outdoor CO2 Dataset (Raw)
+
+## Overview
+
+ZertiAir provides a downloadable dataset of continuous outdoor CO2 measurements collected from sensors deployed across multiple farms and regions. The dataset can be accessed "as is" and contains time-series CO2 observations suitable for independent analysis, research, and integration into external systems.
+
+<div className="card margin-bottom--lg">
+    <div className="card__image">
+        <img src="/img/zertiair1.jpg" alt="Zertiair Raw Dataset" />
+    </div>
+</div>
+
+## Dataset Features
+
+### Access Type
+**Downloadable dataset - "As Is"**
+
+The data is available for direct download without additional processing, allowing users to perform their own analysis and transformations according to their specific needs.
+
+### Dataset Contents
+
+The dataset includes the following measurements and metadata:
+
+| Field | Description | Type | Example |
+|-------|-------------|------|---------|
+| **farm** | Farm name (may be "Anonymous") | Alphanumeric | "Anonymous" |
+| **region** | Geographic area or region | Alphanumeric | "Pla de l'Estany" |
+| **sensorId** | Unique sensor identifier | Alphanumeric | "24E124126C143207" |
+| **co2ppm** | CO2 concentration in ppm | Numeric | 718 |
+| **sensorBatteryPercentage** | Sensor battery percentage | Numeric | 95 |
+| **createdAt** | Timestamp of the record | Timestamp | "2025-11-07 20:52:33" |
+
+### Record Example
+
+```json
+{
+  "farm": "Anonymous",
+  "region": "Pla de l'Estany",
+  "sensorId": "24E124126C143207",
+  "co2ppm": 718,
+  "sensorBatteryPercentage": 95,
+  "createdAt": "2025-11-07 20:52:33"
+}
+```
+
+## Technical Characteristics
+
+### Format and Structure
+- **Format**: Normalized JSON
+- **Average size**: 214 KB
+- **Update frequency**: Monthly
+- **Ontology**: [Public JSON schema](http://46.253.45.22:2106/raw/by-name/zertiair_co2_ontology)
+
+### Capture Technology
+- **Sensors**: Zertiair CO2 IoT
+- **Protocol**: LoRaWAN
+- **Certification**: Devices certified for industrial/livestock environments
+- **Power**: Optimized for continuous operation
+
+### Data Validation
+- SHA-256 hash: `c6e6110d4390bc595b7b8e6c9b0c04e45a3e4ab3cecfdf6255972e3ca8620450`
+- [Verification tool](https://emn178.github.io/online-tools/sha256.html)
+
+## Privacy and Anonymization
+
+The dataset has been processed following strict anonymization protocols:
+
+### Applied Measures
+- Removal of direct identifiers (owner names)
+- Location generalization (area/region level)
+- Exclusive use of non-personal technical identifiers
+- GDPR and LOPDGDD compliance
+
+### Protection Level
+The data is **fully anonymized** and is not considered personal data under GDPR.
+
+## Use Cases
+
+### Scientific Research
+- Air quality studies in livestock environments
+- Analysis of temporal emission patterns
+- Research on environmental impact of pig farms
+
+### Comparative Analysis
+- Benchmarking across regions
+- Environmental condition assessment
+- Correlation studies with operational variables
+
+### System Integration
+- Integration into environmental monitoring platforms
+- Development of decision-support tools
+- Creation of custom dashboards
+
+## Environmental Boundary Condition
+
+This dataset serves as a **reliable environmental boundary condition** that can be combined with other datasets for:
+
+- Comprehensive environmental monitoring
+- Benchmarking
+- Agricultural operations analysis
+- Ventilation and production studies
+
+## Dataset Access
+
+### Unique Identifier
+**DID**: `did:ope:b750d0e3adf8f81bc6e842d42e0816c62dae457f8a75456d43f3716eb369afae`
+
+### Direct Download
+The dataset can be downloaded directly from:
+- [Primary backend](http://46.253.45.22:2106/raw/by-name/porci_co2_data)
+- [Marketplace RegenAg-X](https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:b750d0e3adf8f81bc6e842d42e0816c62dae457f8a75456d43f3716eb369afae)
+
+### DDO Metadata
+[Full DDO metadata](https://gist.githubusercontent.com/freezerain/d0fac583bd73a27a25bc8c3524182385/raw/54299e6807dfd8a7f82c7159d701a046ef21ed66/Sensors%2520CO2%2520data%2520-%2520metadata%2520DDO)
+
+## Quality and Validation
+
+### Validation Process
+1. **Structural validation** against JSON schema
+2. **Consistency checks** for timestamps and values
+3. **Range review** of CO2 measurements
+4. **Quality control** of sensor metadata
+
+### Guarantees
+- Verified and validated data
+- Guaranteed temporal consistency
+- Certified integrity via hash
+
+## Regulatory Compliance
+
+This dataset complies with:
+- Regulation (EU) 2016/679 (GDPR)
+- Organic Law 3/2018 (LOPDGDD)
+- Regulation (EU) 2022/868 (Data Governance Act)
+- UNE 0087:2025 - Data Spaces
+- Gaia-X Trust Framework
+
+## Support and Contact
+
+For questions about the dataset, access, or integration:
+
+<div className="button-group button-group--block margin-top--lg">
+    <a className="button button--primary button--lg" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:b750d0e3adf8f81bc6e842d42e0816c62dae457f8a75456d43f3716eb369afae" target="_blank">
+        Access the Dataset
+    </a>
+    <Link className="button button--secondary button--lg" to="/casos/zertiair">
+        Back to Zertiair
+    </Link>
+</div>

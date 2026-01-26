@@ -1,0 +1,157 @@
+---
+title: Conjunt de dades de CO2 a l'aire lliure (Raw)
+sidebar_label: Conjunt de dades Raw CO2
+sidebar_position: 1
+---
+
+import Link from '@docusaurus/Link';
+
+# Conjunt de dades de CO2 a l'aire lliure (Raw)
+
+## Descripció general
+
+ZertiAir proporciona un conjunt de dades descarregable de mesuraments continus de CO2 a l'aire lliure recopilats de sensors desplegats en múltiples granges i regions. El conjunt de dades es pot accedir "tal qual" i conté observacions de sèries temporals de CO2 adequades per a l'anàlisi independent, la recerca i la integració en sistemes externs.
+
+<div className="card margin-bottom--lg">
+    <div className="card__image">
+        <img src="/img/zertiair1.jpg" alt="Zertiair Raw Dataset" />
+    </div>
+</div>
+
+## Característiques del conjunt de dades
+
+### Tipus d'accés
+**Conjunt de dades descarregable - "As Is"**
+
+Les dades estan disponibles per a descàrrega directa sense processament addicional, permetent als usuaris fer els seus propis anàlisis i transformacions segons les seves necessitats específiques.
+
+### Contingut del conjunt de dades
+
+El conjunt de dades conté els mesuraments i metadades següents:
+
+| Camp | Descripció | Tipus | Exemple |
+|------|------------|-------|---------|
+| **farm** | Nom de la granja (pot ser "Anonymous") | Alfanumèric | "Anonymous" |
+| **region** | Comarca o regió geogràfica | Alfanumèric | "Pla de l'Estany" |
+| **sensorId** | Identificador únic del sensor | Alfanumèric | "24E124126C143207" |
+| **co2ppm** | Concentració de CO2 en ppm | Numèric | 718 |
+| **sensorBatteryPercentage** | Percentatge de bateria del sensor | Numèric | 95 |
+| **createdAt** | Data i hora del registre | Timestamp | "2025-11-07 20:52:33" |
+
+### Exemple de registre
+
+```json
+{
+  "farm": "Anonymous",
+  "region": "Pla de l'Estany",
+  "sensorId": "24E124126C143207",
+  "co2ppm": 718,
+  "sensorBatteryPercentage": 95,
+  "createdAt": "2025-11-07 20:52:33"
+}
+```
+
+## Característiques tècniques
+
+### Format i estructura
+- **Format**: JSON normalitzat
+- **Mida mitjana**: 214 KB
+- **Freqüència d'actualització**: Mensual
+- **Ontologia**: [Esquema JSON públic](http://46.253.45.22:2106/raw/by-name/zertiair_co2_ontology)
+
+### Tecnologia de captura
+- **Sensors**: Zertiair CO2 IoT
+- **Protocol**: LoRaWAN
+- **Certificació**: Dispositius certificats per a entorns industrials/ramaders
+- **Alimentació**: Optimitzada per a funcionament continu
+
+### Validació de dades
+- Hash SHA-256: `c6e6110d4390bc595b7b8e6c9b0c04e45a3e4ab3cecfdf6255972e3ca8620450`
+- [Eina de verificació](https://emn178.github.io/online-tools/sha256.html)
+
+## Privacitat i anonimització
+
+El conjunt de dades s'ha processat seguint estrictes protocols d'anonimització:
+
+### Mesures aplicades
+- Eliminació d'identificadors directes (noms de propietaris)
+- Generalització de localització (nivell de comarca/regió)
+- Ús exclusiu d'identificadors tècnics no personals
+- Compliment de RGPD i LOPDGDD
+
+### Nivell de protecció
+Les dades estan **completament anonimitzades** i no es consideren dades personals a efectes del RGPD.
+
+## Casos d'ús
+
+### Recerca científica
+- Estudis de qualitat de l'aire en entorns ramaders
+- Anàlisi de patrons temporals d'emissions
+- Recerca sobre l'impacte ambiental d'explotacions porcines
+
+### Anàlisi comparativa
+- Benchmarking entre diferents regions
+- Avaluació de condicions ambientals
+- Estudis de correlació amb variables operatives
+
+### Integració en sistemes
+- Incorporació en plataformes de monitoratge ambiental
+- Desenvolupament d'eines de suport a la decisió
+- Creació de quadres de comandament personalitzats
+
+## Condició de contorn ambiental
+
+Aquest conjunt de dades serveix com una **condició de contorn ambiental fiable** que es pot combinar amb altres conjunts de dades per a:
+
+- Monitoratge ambiental complet
+- Benchmarking
+- Anàlisi d'operacions agrícoles
+- Estudis de ventilació i producció
+
+## Accés al conjunt de dades
+
+### Identificador únic
+**DID**: `did:ope:b750d0e3adf8f81bc6e842d42e0816c62dae457f8a75456d43f3716eb369afae`
+
+### Descàrrega directa
+El conjunt de dades es pot descarregar directament des de:
+- [Backend principal](http://46.253.45.22:2106/raw/by-name/porci_co2_data)
+- [Marketplace RegenAg-X](https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:b750d0e3adf8f81bc6e842d42e0816c62dae457f8a75456d43f3716eb369afae)
+
+### Metadades DDO
+[Metadades DDO completes](https://gist.githubusercontent.com/freezerain/d0fac583bd73a27a25bc8c3524182385/raw/54299e6807dfd8a7f82c7159d701a046ef21ed66/Sensors%2520CO2%2520data%2520-%2520metadata%2520DDO)
+
+## Qualitat i validació
+
+### Procés de validació
+1. **Validació estructural** contra JSON-Schema
+2. **Comprovació de coherència** de timestamps i valors
+3. **Revisió de rangs** de mesuraments de CO2
+4. **Control de qualitat** de metadades del sensor
+
+### Garanties
+- Dades verificades i validades
+- Coherència temporal garantida
+- Integritat certificada mitjançant hash
+
+## Compliment normatiu
+
+Aquest conjunt de dades compleix amb:
+- Reglament (UE) 2016/679 (GDPR)
+- Llei orgànica 3/2018 (LOPDGDD)
+- Reglament (UE) 2022/868 (Data Governance Act)
+- UNE 0087:2025 - Espais de Dades
+- Marc de Confiança Gaia-X
+
+## Suport i contacte
+
+Per a consultes sobre el conjunt de dades, accés o integració:
+
+<div className="button-group button-group--block margin-top--lg">
+    <a className="button button--primary button--lg" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:b750d0e3adf8f81bc6e842d42e0816c62dae457f8a75456d43f3716eb369afae" target="_blank">
+        Accedir al conjunt de dades
+    </a>
+    <Link className="button button--secondary button--lg" to="/casos/zertiair">
+        Tornar a Zertiair
+    </Link>
+</div>

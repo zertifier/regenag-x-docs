@@ -1,7 +1,6 @@
 ---
 title: Análisis de CO2 (Zertiair)
 sidebar_label: Zertiair
-sidebar_position: 3
 ---
 
 import Link from '@docusaurus/Link';
@@ -12,7 +11,7 @@ Explora los recursos de Zertiair para el monitoreo y análisis de CO2. Esta secc
 
 <div className="container casos-page">
   <div className="row">
-    
+
     {/* Dataset: Downloadable (Raw) */}
     <div className="col col--12 margin-bottom--lg">
       <div className="card">
@@ -21,17 +20,15 @@ Explora los recursos de Zertiair para el monitoreo y análisis de CO2. Esta secc
         </div>
         <div className="card__body with-image">
           <img className="case-image" src="/img/zertiair1.jpg" alt="Zertiair Raw Dataset" />
-          <p><strong>Dataset descargable – “As Is”</strong></p>
           <p>
-            ZertiAir proporciona un conjunto de datos descargable de mediciones continuas de CO₂ al aire libre recopiladas de sensores desplegados en múltiples granjas y regiones. El conjunto de datos se puede acceder “tal cual” y contiene observaciones de series temporales de CO₂ adecuadas para el análisis independiente, la investigación y la integración en sistemas externos.
-          </p>
-          <p>
+            ZertiAir proporciona un conjunto de datos descargable de mediciones continuas de CO₂ al aire libre recopiladas de sensores desplegados en múltiples granjas y regiones. El conjunto de datos se puede acceder “tal cual” y contiene observaciones de series temporales de CO₂ adecuadas para el análisis independiente, la investigación y la integración en sistemas externos.<br/>
             Sirve como una condición de contorno ambiental fiable que se puede combinar con otros conjuntos de datos (operaciones agrícolas, ventilación, producción) para apoyar el monitoreo ambiental y la evaluación comparativa (benchmarking).
           </p>
         </div>
         <div className="card__footer">
           <div className="button-group button-group--block">
             <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:b750d0e3adf8f81bc6e842d42e0816c62dae457f8a75456d43f3716eb369afae" target="_blank">Conjunto de datos (Raw)</a>
+            <Link className="button button--secondary" to="./raw-dataset">Detalles</Link>
           </div>
         </div>
       </div>
@@ -45,17 +42,15 @@ Explora los recursos de Zertiair para el monitoreo y análisis de CO2. Esta secc
         </div>
         <div className="card__body with-image">
           <img className="case-image" src="/img/zertiair3.png" alt="Zertiair C2D Dataset" />
-          <p><strong>Activo Computado – Solo Algoritmo</strong></p>
           <p>
-            Acceso exclusivo a mediciones de CO₂ al aire libre de múltiples granjas a través de algoritmos Compute-to-Data. En lugar de descargar datos brutos de sensores, los usuarios obtienen análisis seguros para la privacidad, incluyendo métricas de salud de sensores, huellas regionales de CO₂, comportamiento temporal día-noche y detección de anomalías.
-          </p>
-          <p>
+            Acceso exclusivo a mediciones de CO₂ al aire libre de múltiples granjas a través de algoritmos Compute-to-Data. En lugar de descargar datos brutos de sensores, los usuarios obtienen análisis seguros para la privacidad, incluyendo métricas de salud de sensores, huellas regionales de CO₂, comportamiento temporal día-noche y detección de anomalías.<br/>
             Este enfoque permite que el CO₂ al aire libre funcione como una condición de contorno confiable para modelos avanzados sin exponer mediciones crudas, permitiendo la reutilización segura y monetización de la inteligencia ambiental.
           </p>
         </div>
         <div className="card__footer">
           <div className="button-group button-group--block">
             <a className="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:a9f5bca326976e3a12c25d1d8bee85389f81895dc0fcb492c9a062417e8746aa" target="_blank">Conjunto de datos (C2D)</a>
+            <Link className="button button--secondary" to="./c2d-dataset">Detalles</Link>
           </div>
         </div>
       </div>

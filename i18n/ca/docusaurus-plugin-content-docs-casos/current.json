@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.casosSidebar.category.Zertifarm": {
+    "message": "Zertifarm",
+    "description": "The label for category 'Zertifarm' in sidebar 'casosSidebar'"
+  },
+  "sidebar.casosSidebar.category.Zertiair": {
+    "message": "Zertiair",
+    "description": "The label for category 'Zertiair' in sidebar 'casosSidebar'"
+  },
+  "sidebar.casosSidebar.category.Análisis CO₂ Pla de l'Estany": {
+    "message": "Anàlisi CO₂ Pla de l'Estany",
+    "description": "The label for category 'Análisis CO₂ Pla de l'Estany' in sidebar 'casosSidebar'"
+  },
+  "sidebar.casosSidebar.category.Análisis CO₂ Garraf": {
+    "message": "Anàlisi CO₂ Garraf",
+    "description": "The label for category 'Análisis CO₂ Garraf' in sidebar 'casosSidebar'"
+  }
+}

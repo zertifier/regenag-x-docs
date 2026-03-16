@@ -5,26 +5,30 @@
   },
   "logo.alt": {
     "message": "Logotip",
-    "description": "Text alternatiu del logo a la barra superior"
+    "description": "The alt text of navbar logo"
   },
   "item.label.Documentación": {
     "message": "Documentació",
-    "description": "Element de la barra: Documentació"
+    "description": "Navbar item with label Documentación"
   },
   "item.label.Casos": {
     "message": "Casos",
-    "description": "Element de la barra: Casos"
+    "description": "Navbar item with label Casos"
   },
   "item.label.Vídeos": {
     "message": "Vídeos",
-    "description": "Element de la barra: Vídeos"
+    "description": "Navbar item with label Vídeos"
   },
   "item.label.Contacto": {
     "message": "Contacte",
-    "description": "Element de la barra: Contacte"
+    "description": "Navbar item with label Contacto"
   },
   "item.label.Algoritmos": {
     "message": "Algoritmes",
-    "description": "Element de la barra: Algoritmes"
+    "description": "Navbar item with label Algoritmos"
+  },
+  "item.label.Portal": {
+    "message": "Portal",
+    "description": "Navbar item with label Portal"
   }
 }

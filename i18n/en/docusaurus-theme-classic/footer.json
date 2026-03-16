@@ -1,0 +1,30 @@
+{
+  "link.title.Documentación": {
+    "message": "Documentación",
+    "description": "The title of the footer links column with title=Documentación in the footer"
+  },
+  "link.title.Explorar": {
+    "message": "Explorar",
+    "description": "The title of the footer links column with title=Explorar in the footer"
+  },
+  "link.item.label.Documentación": {
+    "message": "Documentación",
+    "description": "The label of footer link with label=Documentación linking to documentacion/about/"
+  },
+  "link.item.label.Casos": {
+    "message": "Casos",
+    "description": "The label of footer link with label=Casos linking to casos"
+  },
+  "link.item.label.Vídeos": {
+    "message": "Vídeos",
+    "description": "The label of footer link with label=Vídeos linking to videos"
+  },
+  "link.item.label.Contacto": {
+    "message": "Contacto",
+    "description": "The label of footer link with label=Contacto linking to contacto"
+  },
+  "copyright": {
+    "message": "© Zertifier 2026",
+    "description": "The footer copyright"
+  }
+}

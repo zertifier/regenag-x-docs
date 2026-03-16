@@ -58,7 +58,7 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'es',
     locales: ['es', 'en', 'ca'],
   },
 
@@ -126,6 +126,7 @@ const config = {
           { type: 'doc', docId: 'index', docsPluginId: 'algoritmos', label: 'Algoritmos', position: 'left' },
           { to: 'videos', label: 'Vídeos', position: 'left' },
           { to: 'contacto', label: 'Contacto', position: 'left' },
+          { href: 'https://market-git-feat-stage-ocean-enterprise.vercel.app/search?sort=indexedMetadata.event.', label: 'Portal', position: 'left' },
           {
             type: 'localeDropdown',
             position: 'right',

@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.algoritmosSidebar.category.Zertifarm": {
+    "message": "Zertifarm",
+    "description": "The label for category 'Zertifarm' in sidebar 'algoritmosSidebar'"
+  },
+  "sidebar.algoritmosSidebar.category.ZertiAir": {
+    "message": "ZertiAir",
+    "description": "The label for category 'ZertiAir' in sidebar 'algoritmosSidebar'"
+  }
+}

@@ -5,26 +5,30 @@
   },
   "logo.alt": {
     "message": "Logo",
-    "description": "Logo alt text in the top bar"
+    "description": "The alt text of navbar logo"
   },
   "item.label.Documentación": {
     "message": "Documentation",
-    "description": "Navbar item: Documentation"
+    "description": "Navbar item with label Documentación"
   },
   "item.label.Casos": {
     "message": "Cases",
-    "description": "Navbar item: Cases"
+    "description": "Navbar item with label Casos"
   },
   "item.label.Vídeos": {
     "message": "Videos",
-    "description": "Navbar item: Videos"
+    "description": "Navbar item with label Vídeos"
   },
   "item.label.Contacto": {
     "message": "Contact",
-    "description": "Navbar item: Contact"
+    "description": "Navbar item with label Contacto"
   },
   "item.label.Algoritmos": {
     "message": "Algorithms",
-    "description": "Navbar item: Algorithms"
+    "description": "Navbar item with label Algoritmos"
+  },
+  "item.label.Portal": {
+    "message": "Portal",
+    "description": "Navbar item with label Portal"
   }
 }

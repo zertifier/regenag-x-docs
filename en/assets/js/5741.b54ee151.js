@@ -1,0 +1,1 @@
+(globalThis.webpackChunkregenx_docs=globalThis.webpackChunkregenx_docs||[]).push([[5741],{5741:()=>{}}]);

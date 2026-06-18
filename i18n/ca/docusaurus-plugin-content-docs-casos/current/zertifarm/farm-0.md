@@ -1,6 +1,6 @@
 ---
 title: Impacte de la Gestió de Pastures Regeneratives en la Salut del Sòl, la Llet i la Qualitat de la Carn
-sidebar_label: Impacte de la Gestió de Pastures Regeneratives en la Salut del Sòl, la Llet i la Qualitat de la Carn
+sidebar_label: Pasturatge Regeneratiu (Beira Baixa i Alentejo)
 ---
 
 # Impacte de la Gestió de Pastures Regeneratives en la Salut del Sòl, la Llet i la Qualitat de la Carn

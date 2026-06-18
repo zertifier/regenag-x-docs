@@ -1,6 +1,6 @@
 ---
 title: Impacto de la Gestión de Pastos Regenerativos en la Salud del Suelo, la Leche y la Calidad de la Carne
-sidebar_label: Impacto de la Gestión de Pastos Regenerativos en la Salud del Suelo, la Leche y la Calidad de la Carne
+sidebar_label: Pastoreo Regenerativo (Beira Baixa y Alentejo)
 ---
 
 # Impacto de la Gestión de Pastos Regenerativos en la Salud del Suelo, la Leche y la Calidad de la Carne

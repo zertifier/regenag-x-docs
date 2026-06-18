@@ -1,6 +1,6 @@
 ---
 title: Impact of Regenerative Pasture Management on Soil Health, Milk, and Meat Quality
-sidebar_label: Impact of Regenerative Pasture Management on Soil Health, Milk, and Meat Quality
+sidebar_label: Regenerative Grazing (Beira Baixa & Alentejo)
 ---
 
 # Impact of Regenerative Pasture Management on Soil Health, Milk, and Meat Quality

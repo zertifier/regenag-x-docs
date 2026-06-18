@@ -1,44 +1,44 @@
 ---
-title: Barbela Wheat & Cover crops (Alentejo)
-sidebar_label: Barbela Wheat (Alentejo)
+title: Trigo Barbela y Cultivos de Cobertura (Alentejo)
+sidebar_label: Trigo Barbela (Alentejo)
 ---
 
-## Context & Location
+## Contexto y Ubicación
 
-* Alentejo (southern Portuguese interior), mainland Portugal
-* Mediterranean climate
-* Mixed arable and pastoral system
+* Alentejo (interior sur de Portugal), Portugal continental
+* Clima mediterráneo
+* Sistema mixto arable y pastoral
 
-## Objectives
+## Objetivos
 
-* Assess the influence on soil of the production of *Barbela* wheat
+* Evaluar la influencia en el suelo de la producción de trigo *Barbela*
 
-## Problem Description
+## Descripción del Problema
 
-This farm has gradually transformed a conventional arable operation into a diversified regenerative project focused on soil health. The goal is the implementation of a different wheat variety that is resilient and resistant to poor soil conditions. Moreover, this kind of wheat has lower gluten content and is more digestible, which is important for its use in human consumption.
+Esta granja ha transformado gradualmente una operación arable convencional en un proyecto regenerativo diversificado centrado en la salud del suelo. El objetivo es la implementación de una variedad de trigo diferente que sea resiliente y resistente a las malas condiciones del suelo. Además, este tipo de trigo tiene menor contenido de gluten y es más digestible, lo que es importante para su uso en el consumo humano.
 
-## Proposed Approach / Pilot Logic
+## Enfoque Propuesto / Lógica del Piloto
 
-Analysis of two samples of a 10-ha plot before and after the application of the *Barbela* wheat, with the application of cover crops.
+Análisis de dos muestras de una parcela de 10 ha antes y después de la aplicación del trigo *Barbela*, con la aplicación de cultivos de cobertura.
 
-## Data & Measurements
+## Datos y Mediciones
 
-* Soil chemistry: pH, organic matter, N, P, K, Ca, S, Mo
-* Soil biology: microbial diversity and pathogen presence
-* Indicators of compaction and nutrient excess
+* Química del suelo: pH, materia orgánica, N, P, K, Ca, S, Mo
+* Biología del suelo: diversidad microbiana y presencia de patógenos
+* Indicadores de compactación y exceso de nutrientes
 
-## Key Findings (Preliminary)
+## Hallazgos Clave (Preliminares)
 
-* Critical phosphorus shortage in both sampling points
-* Microbiological analysis showed variability among sampling points related to management
-* Excessive amounts of calcium and magnesium
+* Escasez crítica de fósforo en ambos puntos de muestreo
+* El análisis microbiológico mostró variabilidad entre puntos de muestreo relacionada con la gestión
+* Cantidades excesivas de calcio y magnesio
 
-## Observed Value
+## Valor Observado
 
-* Increase of total nitrogen and narrower C:N ratio suggesting more labile organic matter
-* Phosphorus shortage persisted
-* Slight decrease in the pH indicating progressive acidification
+* Aumento del nitrógeno total y relación C:N más estrecha, lo que sugiere una materia orgánica más lábil
+* La escasez de fósforo persistió
+* Ligera disminución del pH que indica una acidificación progresiva
 
-## Why this pilot matters
+## Por qué importa este piloto
 
-It highlights the benefits of the use of **autochthonous crops species**, and their influence on soil health and nutrition.
+Destaca los beneficios del uso de **especies de cultivos autóctonas** y su influencia en la salud y la nutrición del suelo.

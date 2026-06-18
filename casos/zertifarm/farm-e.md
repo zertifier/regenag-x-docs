@@ -1,45 +1,45 @@
 ---
-title: Comparative Analysis of Grazing Regimes (Beira Baixa)
-sidebar_label: Organic Grazing (Beira Baixa)
+title: Análisis Comparativo de Regímenes de Pastoreo (Beira Baixa)
+sidebar_label: Pastoreo Orgánico (Beira Baixa)
 ---
 
-## Context & Location
+## Contexto y Ubicación
 
-* Beira Baixa, mainland Portugal
-* Mediterranean climate
-* Grassland-based pastoral system
+* Beira Baixa, Portugal continental
+* Clima mediterráneo
+* Sistema pastoral basado en praderas
 
-## Objectives
+## Objetivos
 
-* Compare soil health outcomes under different grazing regimes
-* Assess the results of soil health parameters in a plot without soil corrections in the last years
+* Comparar los resultados de salud del suelo bajo diferentes regímenes de pastoreo
+* Evaluar los parámetros de salud del suelo en una parcela sin correcciones de suelo en los últimos años
 
-## Problem Description
+## Descripción del Problema
 
-Although this farm is an organic farm, it has problems related to poor soil nutrition, drainage, and productivity. It is important to implement a well-managed grazing system to improve soil health and nutrition.
+Aunque esta es una granja orgánica, presenta problemas relacionados con la escasa nutrición del suelo, el drenaje y la productividad. Es importante implementar un sistema de pastoreo bien gestionado para mejorar la salud y la nutrición del suelo.
 
-## Proposed Approach / Pilot Logic
+## Enfoque Propuesto / Lógica del Piloto
 
-Implementation of grazing and bale grazing in a low productivity plot.
+Implementación del pastoreo y el *bale grazing* en una parcela de baja productividad.
 
-## Data & Measurements
+## Datos y Mediciones
 
-* Soil chemistry: pH, organic matter, N, P, K, Ca, S, Mo
-* Soil biology: microbial diversity and pathogen presence
-* Indicators of compaction and nutrient excess
+* Química del suelo: pH, materia orgánica, N, P, K, Ca, S, Mo
+* Biología del suelo: diversidad microbiana y presencia de patógenos
+* Indicadores de compactación y exceso de nutrientes
 
-## Key Findings (Preliminary)
+## Hallazgos Clave (Preliminares)
 
-* Absence of micronutrients such as molybdenum, copper, cobalt, nickel, boron and zinc
-* High saturation restricting the capacity of retain nutrient cations
-* High potential for mycotoxin production
+* Ausencia de micronutrientes como molibdeno, cobre, cobalto, níquel, boro y zinc
+* Alta saturación que restringe la capacidad de retener cationes de nutrientes
+* Alto potencial de producción de micotoxinas
 
-## Expected Value
+## Valor Esperado
 
-* Improve nutritional value of pasture for livestock
-* Improve organic matter status
-* Improve micronutrients availability in soil
+* Mejorar el valor nutricional del pasto para el ganado
+* Mejorar el estado de la materia orgánica
+* Mejorar la disponibilidad de micronutrientes en el suelo
 
-## Why this pilot matters
+## Por qué importa este piloto
 
-It highlights that **organic management alone is not sufficient**, and that adaptive grazing and regenerative soil practices are essential to restore soil function and long-term productivity.
+Destaca que **la gestión orgánica por sí sola no es suficiente**, y que el pastoreo adaptativo y las prácticas regenerativas del suelo son esenciales para restaurar la función del suelo y la productividad a largo plazo.

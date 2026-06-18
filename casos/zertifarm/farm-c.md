@@ -1,51 +1,51 @@
 ---
-title: Beef Cattle Grazing & Soil Disturbance (Beira Baixa)
-sidebar_label: Beef Cattle (Beira Baixa)
+title: Pastoreo de Ganado Vacuno y Perturbación del Suelo (Beira Baixa)
+sidebar_label: Ganado Vacuno (Beira Baixa)
 ---
 
-## Context & Location
+## Contexto y Ubicación
 
-* Beira Baixa region, mainland Portugal  
-* Mediterranean climate  
-* Organic beef cattle production
+* Región de Beira Baixa, Portugal continental
+* Clima mediterráneo
+* Producción orgánica de ganado vacuno
 
-## Objectives
+## Objetivos
 
-* Compare soil health outcomes under different grazing and soil mobilization regimes  
-* Assess long-term effects of regenerative grazing practices
+* Comparar los resultados de salud del suelo bajo diferentes regímenes de pastoreo y movilización del suelo
+* Evaluar los efectos a largo plazo de las prácticas de pastoreo regenerativo
 
-## Problem Description
+## Descripción del Problema
 
-Even organic systems can suffer from soil degradation if grazing pressure and soil disturbance are not properly managed. There is limited empirical evidence comparing long-term grazing, no-till, and ungrazed plots within the same system.
+Incluso los sistemas orgánicos pueden sufrir degradación del suelo si la presión de pastoreo y la perturbación del suelo no se gestionan adecuadamente. Existe escasa evidencia empírica que compare el pastoreo a largo plazo, la labranza cero y las parcelas sin pastoreo dentro del mismo sistema.
 
-## Proposed Approach / Pilot Logic
+## Enfoque Propuesto / Lógica del Piloto
 
-Three plots were monitored:
+Se monitorearon tres parcelas:
 
-1. Grazed plot  
-2. No-till plot (no mobilization for ≥10 years)  
-3. Ungrazed plot (no animals for ≥3 years)
+1. Parcela pastoreada
+2. Parcela de labranza cero (sin movilización durante ≥10 años)
+3. Parcela sin pastoreo (sin animales durante ≥3 años)
 
-This design enables time-dependent and practice-based comparison.
+Este diseño permite comparaciones basadas en el tiempo y en las prácticas.
 
-## Data & Measurements
+## Datos y Mediciones
 
-* Soil chemistry and nutrient balance  
-* Soil microbiome (16S, ITS)  
-* Indicators of compaction and biological stress
+* Química del suelo y balance de nutrientes
+* Microbioma del suelo (16S, ITS)
+* Indicadores de compactación y estrés biológico
 
-## Key Findings (Preliminary)
+## Hallazgos Clave (Preliminares)
 
-* Lower organic matter compared to other farms  
-* Signs of compaction across plots  
-* Nutrient limitations (e.g. molybdenum below detection limits)
+* Menor materia orgánica en comparación con otras granjas
+* Signos de compactación en todas las parcelas
+* Limitaciones de nutrientes (p. ej., molibdeno por debajo de los límites de detección)
 
-## Expected / Observed Value
+## Valor Esperado / Observado
 
-* Highlights limits of “organic-only” approaches  
-* Provides evidence for adaptive grazing, subsoiling, and regenerative interventions  
-* Supports context-based management rather than one-size-fits-all practices
+* Pone de manifiesto los límites de los enfoques "solo orgánico"
+* Proporciona evidencia para el pastoreo adaptativo, el subsolado y las intervenciones regenerativas
+* Apoya la gestión basada en el contexto en lugar de prácticas únicas para todos
 
-## Why this pilot matters
+## Por qué importa este piloto
 
- It highlights that **organic management alone is not sufficient**, and that adaptive grazing and regenerative soil practices are essential to restore soil function and long-term productivity.
+Destaca que **la gestión orgánica por sí sola no es suficiente**, y que el pastoreo adaptativo y las prácticas regenerativas del suelo son esenciales para restaurar la función del suelo y la productividad a largo plazo.

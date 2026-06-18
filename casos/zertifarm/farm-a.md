@@ -1,50 +1,50 @@
 ---
-title: Dairy Cow Silage System (Azores)
-sidebar_label: Silage System (Azores)
+title: Sistema de Ensilaje con Vacas Lecheras (Azores)
+sidebar_label: Sistema de Ensilaje (Azores)
 ---
 
-## Context & Location
+## Contexto y Ubicación
 
-* São Miguel Island, Azores (Portugal)  
-* Atlantic climate, high biomass potential  
-* Conventional dairy cow production system
+* Isla de São Miguel, Azores (Portugal)
+* Clima atlántico, alto potencial de biomasa
+* Sistema convencional de producción de vacas lecheras
 
-## Objectives
+## Objetivos
 
-* Assess the effect of regenerative practices on soil health indicators  
-* Compare conventional high-mobilisation cropping with improved soil management approaches
+* Evaluar el efecto de las prácticas regenerativas en los indicadores de salud del suelo
+* Comparar el cultivo convencional de alta movilización con enfoques mejorados de gestión del suelo
 
-## Problem Description
+## Descripción del Problema
 
-Farm A operates a **conventional silage production system** with two annual crops (maize and ryegrass), involving frequent soil mobilization and fertilization. Such systems are prone to soil compaction, biodiversity loss, and nutrient imbalances, increasing dependency on external inputs and vulnerability to climate variability.
+La Granja A opera un **sistema convencional de producción de ensilaje** con dos cultivos anuales (maíz y raigrás), con frecuente movilización del suelo y fertilización. Estos sistemas son propensos a la compactación del suelo, la pérdida de biodiversidad y los desequilibrios de nutrientes, aumentando la dependencia de insumos externos y la vulnerabilidad a la variabilidad climática.
 
-## Proposed Approach / Pilot Logic
+## Enfoque Propuesto / Lógica del Piloto
 
-A \~2 ha plot was monitored using:
+Se monitoreó una parcela de ~2 ha mediante:
 
-* Physical–chemical soil analysis  
-* Soil microbiome profiling (16S and ITS sequencing)
+* Análisis físico-químico del suelo
+* Perfilado del microbioma del suelo (secuenciación 16S e ITS)
 
-The pilot evaluates how current management practices affect soil structure, nutrient balance, and microbial health, establishing a baseline for regenerative transitions.
+El piloto evalúa cómo las prácticas de gestión actuales afectan la estructura del suelo, el equilibrio de nutrientes y la salud microbiana, estableciendo una línea base para las transiciones regenerativas.
 
-## Data & Measurements
+## Datos y Mediciones
 
-* Soil chemistry: pH, organic matter, N, P, K, Ca, S, Mo  
-* Soil biology: microbial diversity and pathogen presence  
-* Indicators of compaction and nutrient excess
+* Química del suelo: pH, materia orgánica, N, P, K, Ca, S, Mo
+* Biología del suelo: diversidad microbiana y presencia de patógenos
+* Indicadores de compactación y exceso de nutrientes
 
-## Key Findings (Preliminary)
+## Hallazgos Clave (Preliminares)
 
-* High nutrient levels but **low base exchange capacity**  
-* Evidence of **soil compaction** and presence of *Pythium sp.*  
-* Reduced soil biodiversity linked to frequent mobilization
+* Altos niveles de nutrientes pero **baja capacidad de intercambio de bases**
+* Evidencia de **compactación del suelo** y presencia de *Pythium sp.*
+* Reducida biodiversidad del suelo vinculada a la frecuente movilización
 
-## Expected / Observed Value
+## Valor Esperado / Observado
 
-* Identification of practices limiting soil regeneration  
-* Evidence supporting reduced tillage, cover crops, and direct seeding  
-* Scientific basis to guide regenerative transition without yield loss
+* Identificación de prácticas que limitan la regeneración del suelo
+* Evidencia que apoya la labranza reducida, los cultivos de cobertura y la siembra directa
+* Base científica para guiar la transición regenerativa sin pérdida de rendimiento
 
-## Why this pilot matters
+## Por qué importa este piloto
 
-It represents a **high-input conventional baseline**, making it critical for demonstrating how regenerative practices (reduced tillage, cover crops) can improve soil health without compromising productivity.
+Representa una **línea base convencional de altos insumos**, siendo fundamental para demostrar cómo las prácticas regenerativas (labranza reducida, cultivos de cobertura) pueden mejorar la salud del suelo sin comprometer la productividad.

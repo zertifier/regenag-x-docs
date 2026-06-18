@@ -1,51 +1,51 @@
 ---
-title: Regenerative Pasture in Dairy Goat Farming (Beira Baixa)
-sidebar_label: Goat Pasture (Beira Baixa)
+title: Pastoreo Regenerativo en la Cría de Cabras Lecheras (Beira Baixa)
+sidebar_label: Pastoreo de Cabras (Beira Baixa)
 ---
 
-## Context & Location
+## Contexto y Ubicación
 
-* Beira Baixa region, mainland Portugal  
-* Mediterranean climate, water stress risk  
-* Dairy goat production
+* Región de Beira Baixa, Portugal continental
+* Clima mediterráneo, riesgo de estrés hídrico
+* Producción de cabras lecheras
 
-## Objectives
+## Objetivos
 
-* Demonstrate the benefits of biodiverse, year-round pasture coverage  
-* Measure soil health improvements under regenerative pasture systems
+* Demostrar los beneficios de una cobertura de pastos biodiversa durante todo el año
+* Medir las mejoras en la salud del suelo bajo sistemas de pasto regenerativo
 
-## Problem Description
+## Descripción del Problema
 
-Mediterranean dryland systems suffer from erosion, nutrient loss, and declining soil fertility. Conventional annual pastures leave soils exposed and biologically inactive for part of the year, reducing resilience and productivity.
+Los sistemas de secano mediterráneos sufren erosión, pérdida de nutrientes y disminución de la fertilidad del suelo. Los pastos anuales convencionales dejan los suelos expuestos y biológicamente inactivos durante parte del año, reduciendo la resiliencia y la productividad.
 
-## Proposed Approach / Pilot Logic
+## Enfoque Propuesto / Lógica del Piloto
 
-A 4 ha plot was implemented with:
+Se implementó una parcela de 4 ha con:
 
-* Annual, biodiverse pasture mixtures  
-* Continuous soil coverage
+* Mezclas de pastos anuales y biodiversos
+* Cobertura continua del suelo
 
-Monitoring focused on linking regenerative pasture management to measurable improvements in soil health and microbiome function.
+El monitoreo se centró en vincular la gestión de pastos regenerativos con mejoras medibles en la salud del suelo y la función del microbioma.
 
-## Data & Measurements
+## Datos y Mediciones
 
-* Soil physical–chemical parameters  
-* Soil microbiome diversity and metabolic activity  
-* Pathogen presence
+* Parámetros físico-químicos del suelo
+* Diversidad del microbioma del suelo y actividad metabólica
+* Presencia de patógenos
 
-## Key Findings (Preliminary)
+## Hallazgos Clave (Preliminares)
 
-* **Optimal soil conditions** compared to other farms  
-* Higher microbial metabolic activity  
-* Lower pathogen presence  
-* Improved nutrient cycling with reduced external inputs
+* **Condiciones óptimas del suelo** en comparación con otras granjas
+* Mayor actividad metabólica microbiana
+* Menor presencia de patógenos
+* Ciclo de nutrientes mejorado con insumos externos reducidos
 
-## Expected / Observed Value
+## Valor Esperado / Observado
 
-* Demonstrates regenerative practices as a **low-input, high-resilience strategy**  
-* Supports farmer adoption by showing soil improvement without productivity loss  
-* Potential model for scalable regenerative pasture systems in dry regions
+* Demuestra las prácticas regenerativas como una **estrategia de bajos insumos y alta resiliencia**
+* Apoya la adopción por parte de los agricultores mostrando la mejora del suelo sin pérdida de productividad
+* Modelo potencial para sistemas de pasto regenerativo escalables en regiones áridas
 
-## Why this pilot matters
+## Por qué importa este piloto
 
- It shows that **regenerative pasture systems can outperform conventional systems** in soil health under water-limited Mediterranean conditions, with reduced dependency on synthetic inputs.
+Demuestra que **los sistemas de pasto regenerativo pueden superar a los sistemas convencionales** en salud del suelo bajo condiciones mediterráneas limitadas por el agua, con menor dependencia de insumos sintéticos.

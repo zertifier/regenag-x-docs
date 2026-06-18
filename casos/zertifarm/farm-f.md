@@ -1,46 +1,46 @@
 ---
-title: Management Regenerative Practices in Different Plots (Azores)
-sidebar_label: Microenvironments (Azores)
+title: Prácticas de Gestión Regenerativa en Diferentes Parcelas (Azores)
+sidebar_label: Microambientes (Azores)
 ---
 
-## Context & Location
+## Contexto y Ubicación
 
-* Azores, Portugal island
-* Oceanic subtropical climate
-* Mixed arable and pastoral system
+* Azores, isla de Portugal
+* Clima oceánico subtropical
+* Sistema mixto arable y pastoral
 
-## Objectives
+## Objetivos
 
-* Compare management impacts in different plots with different microenvironments
+* Comparar el impacto de la gestión en diferentes parcelas con distintos microambientes
 
-## Problem Description
+## Descripción del Problema
 
-A single farm can show different microenvironments and soil properties due to different management practices. The sampling of different areas' strategy reveals significant variability in soil development and productivity potential.
+Una sola granja puede presentar diferentes microambientes y propiedades del suelo debido a distintas prácticas de gestión. La estrategia de muestreo en diferentes zonas revela una variabilidad significativa en el desarrollo del suelo y el potencial de productividad.
 
-## Proposed Approach / Pilot Logic
+## Enfoque Propuesto / Lógica del Piloto
 
-Three plots with different management.
+Tres parcelas con diferente gestión.
 
-Implementation of seed mixture through direct sowing, to increase the protein amount.
+Implementación de mezcla de semillas mediante siembra directa para aumentar el contenido proteico.
 
-## Data & Measurements
+## Datos y Mediciones
 
-* Soil chemistry: pH, organic matter, N, P, K, Ca, S, Mo
-* Soil biology: microbial diversity and pathogen presence
-* Indicators of compaction and nutrient excess
+* Química del suelo: pH, materia orgánica, N, P, K, Ca, S, Mo
+* Biología del suelo: diversidad microbiana y presencia de patógenos
+* Indicadores de compactación y exceso de nutrientes
 
-## Key Findings (Preliminary)
+## Hallazgos Clave (Preliminares)
 
-* Critical phosphorus shortage in all plots
-* Soil compaction and poor drainage (in two plots)
-* Microbiological analysis showed zonal variability reflecting different land use.
+* Escasez crítica de fósforo en todas las parcelas
+* Compactación del suelo y drenaje deficiente (en dos parcelas)
+* El análisis microbiológico mostró variabilidad zonal que refleja diferentes usos del suelo
 
-## Expected Value
+## Valor Esperado
 
-* Amendment of phosphorus and micronutrient to avoid yield suppression
-* Increase diversification using crops consociation
-* Mitigate the risk of fungal presence
+* Enmienda de fósforo y micronutrientes para evitar la supresión del rendimiento
+* Aumentar la diversificación mediante la consociación de cultivos
+* Mitigar el riesgo de presencia fúngica
 
-## Why this pilot matters
+## Por qué importa este piloto
 
-It highlights that **in a single farm we can have different microenvironments**, and that soil analysis and corrections together with the implementation of regenerative practices are essential to restore soil function and long-term productivity.
+Destaca que **en una sola granja podemos tener diferentes microambientes**, y que el análisis y las correcciones del suelo junto con la implementación de prácticas regenerativas son esenciales para restaurar la función del suelo y la productividad a largo plazo.

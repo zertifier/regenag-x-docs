@@ -1,43 +1,43 @@
 ---
-title: Rotational Grazing & Regenerative Practices (Alentejo)
-sidebar_label: Rotational Grazing (Alentejo)
+title: Pastoreo Rotativo y Prácticas Regenerativas (Alentejo)
+sidebar_label: Pastoreo Rotativo (Alentejo)
 ---
 
-## Context & Location
+## Contexto y Ubicación
 
-* Alentejo (southern Portuguese interior), mainland Portugal
-* Mediterranean climate
-* Grassland-based pastoral system
+* Alentejo (interior sur de Portugal), Portugal continental
+* Clima mediterráneo
+* Sistema pastoral basado en praderas
 
-## Objectives
+## Objetivos
 
-* Assess the benefits of rotational grazing
-* Assess long-term effects of regenerative grazing practices
+* Evaluar los beneficios del pastoreo rotativo
+* Evaluar los efectos a largo plazo de las prácticas de pastoreo regenerativo
 
-## Problem Description
+## Descripción del Problema
 
-Although this farm is managed under regenerative principles, it shows soil nutritional deficiencies. It is important to optimize grazing efficiency and contribute to improving soil health.
+Aunque esta granja se gestiona bajo principios regenerativos, presenta deficiencias nutricionales en el suelo. Es importante optimizar la eficiencia del pastoreo y contribuir a mejorar la salud del suelo.
 
-## Proposed Approach / Pilot Logic
+## Enfoque Propuesto / Lógica del Piloto
 
-Implement rotational grazing with 1.8-ha paddocks to allow grass recovery.
+Implementación del pastoreo rotativo con parcelas de 1,8 ha para permitir la recuperación de la hierba.
 
-## Data & Measurements
+## Datos y Mediciones
 
-* Soil chemistry: pH, organic matter, N, P, K, Ca, S, Mo
-* Soil biology: microbial diversity and pathogen presence
-* Indicators of compaction and nutrient excess
+* Química del suelo: pH, materia orgánica, N, P, K, Ca, S, Mo
+* Biología del suelo: diversidad microbiana y presencia de patógenos
+* Indicadores de compactación y exceso de nutrientes
 
-## Key Findings (Preliminary)
+## Hallazgos Clave (Preliminares)
 
-* Critical deficiencies of micronutrients such as molybdenum, zinc and boron
-* Vulnerability to biotic and abiotic stress
-* Phosphorus deficiency
+* Deficiencias críticas de micronutrientes como molibdeno, zinc y boro
+* Vulnerabilidad al estrés biótico y abiótico
+* Deficiencia de fósforo
 
-## Expected Value
+## Valor Esperado
 
-* Expected the optimization of grazing efficiency
+* Optimización de la eficiencia del pastoreo
 
-## Why this pilot matters
+## Por qué importa este piloto
 
-It highlights that **grazing alone is not sufficient**, and that adaptive regenerative soil practices and soil analysis and correction are essential to restore soil function and long-term productivity.
+Destaca que **el pastoreo por sí solo no es suficiente**, y que las prácticas regenerativas adaptativas del suelo junto con el análisis y la corrección del suelo son esenciales para restaurar la función del suelo y la productividad a largo plazo.

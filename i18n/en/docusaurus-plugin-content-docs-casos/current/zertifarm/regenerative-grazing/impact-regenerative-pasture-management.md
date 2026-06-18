@@ -8,7 +8,7 @@ sidebar_label: Soil, Milk & Meat Quality
 This page presents the combined findings from two pilot farms — **Pilot B (Quinta da Veiga, Beira Baixa)** and **Pilot D (TerraMay, Alentejo)** — which together investigate how regenerative pasture and grazing management affect soil health, milk composition, and meat quality under Mediterranean conditions.
 
 <div class="margin-bottom--lg">
-  <a class="button button--primary" href="#" target="_blank">Dataset</a>
+  <a class="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:9b134e1c8440c577689c924ff039cb649ed3d96991efc5f49ab6793f7ee3252a" target="_blank">Dataset</a>
 </div>
 
 ---

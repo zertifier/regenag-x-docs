@@ -5,7 +5,7 @@ sidebar_label: Pastoreo Regenerativo (Beira Baixa y Alentejo)
 
 # Impacto de la Gestión de Pastos Regenerativos en la Salud del Suelo, la Leche y la Calidad de la Carne
 
-Esta página presenta los resultados combinados de dos granjas piloto — **Piloto B (Quinta da Veiga, Beira Baixa)** y **Piloto D (TerraMay, Alentejo)** — que investigan conjuntamente cómo la gestión de pastos y el pastoreo regenerativo afectan la salud del suelo, la composición de la leche y la calidad de la carne en condiciones mediterráneas.
+Esta página presenta los resultados combinados de dos granjas piloto — **Piloto B (Beira Baixa)** y **Piloto D (Alentejo)** — que investigan conjuntamente cómo la gestión de pastos y el pastoreo regenerativo afectan la salud del suelo, la composición de la leche y la calidad de la carne en condiciones mediterráneas.
 
 <div class="margin-bottom--lg">
   <a class="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:9b134e1c8440c577689c924ff039cb649ed3d96991efc5f49ab6793f7ee3252a" target="_blank">Dataset</a>
@@ -13,7 +13,7 @@ Esta página presenta los resultados combinados de dos granjas piloto — **Pilo
 
 ---
 
-## Piloto B – Quinta da Veiga (Beira Baixa)
+## Piloto B – Beira Baixa
 
 **Ubicación:** Región de Beira Baixa, Portugal continental · Clima mediterráneo · Producción de cabras lecheras
 
@@ -53,7 +53,7 @@ El aumento de la Capacidad de Intercambio Catiónico (CIC) representa una gananc
 
 ---
 
-## Piloto D – TerraMay (Alentejo)
+## Piloto D – Alentejo
 
 **Ubicación:** Alentejo (interior sur de Portugal), Portugal continental · Clima mediterráneo · Sistema pastoral basado en praderas
 

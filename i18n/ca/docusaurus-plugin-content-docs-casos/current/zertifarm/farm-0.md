@@ -5,7 +5,7 @@ sidebar_label: Pasturatge Regeneratiu (Beira Baixa i Alentejo)
 
 # Impacte de la Gestió de Pastures Regeneratives en la Salut del Sòl, la Llet i la Qualitat de la Carn
 
-Aquesta pàgina presenta els resultats combinats de dos pilots — **Pilot B (Quinta da Veiga, Beira Baixa)** i **Pilot D (TerraMay, Alentejo)** — que investigen conjuntament com la gestió de pastures i el pasturatge regeneratiu afecten la salut del sòl, la composició de la llet i la qualitat de la carn en condicions mediterrànies.
+Aquesta pàgina presenta els resultats combinats de dos pilots — **Pilot B (Beira Baixa)** i **Pilot D (Alentejo)** — que investigen conjuntament com la gestió de pastures i el pasturatge regeneratiu afecten la salut del sòl, la composició de la llet i la qualitat de la carn en condicions mediterrànies.
 
 <div class="margin-bottom--lg">
   <a class="button button--primary" href="https://market-git-feat-stage-ocean-enterprise.vercel.app/asset/did:ope:9b134e1c8440c577689c924ff039cb649ed3d96991efc5f49ab6793f7ee3252a" target="_blank">Dataset</a>
@@ -13,7 +13,7 @@ Aquesta pàgina presenta els resultats combinats de dos pilots — **Pilot B (Qu
 
 ---
 
-## Pilot B – Quinta da Veiga (Beira Baixa)
+## Pilot B – Beira Baixa
 
 **Ubicació:** Regió de Beira Baixa, Portugal continental · Clima mediterrani · Producció de cabres lleteres
 
@@ -53,7 +53,7 @@ L'augment de la Capacitat d'Intercanvi Catiònic (CEC) representa un guany impor
 
 ---
 
-## Pilot D – TerraMay (Alentejo)
+## Pilot D – Alentejo
 
 **Ubicació:** Alentejo (interior meridional portuguès), Portugal continental · Clima mediterrani · Sistema pastoral basat en praderies
 
